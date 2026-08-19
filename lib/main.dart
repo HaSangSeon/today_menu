@@ -25,15 +25,23 @@ void main() async {
   );
   final themeProvider = ThemeProvider();
 
-  // Load initial data
-  await Future.wait([
-    filterProvider.initialize(),
-    menuProvider.initialize(),
-    themeProvider.initialize(),
-  ]);
+  // Load initial data defensively
+  try {
+    await Future.wait([
+      filterProvider.initialize(),
+      menuProvider.initialize(),
+      themeProvider.initialize(),
+    ]);
+  } catch (e) {
+    debugPrint('Init error: $e');
+  }
 
-  // Initialize AdMob in background
-  AdService().initialize();
+  // Initialize AdMob in background (safe non-blocking)
+  try {
+    AdService().initialize();
+  } catch (e) {
+    debugPrint('AdService error: $e');
+  }
 
   runApp(
     MultiProvider(

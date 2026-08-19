@@ -10,12 +10,11 @@ class AppConfig {
   static const int maxHistoryCount = 30;
   static const int maxRecentExclusions = 5;
 
-  // Google AdMob 테스트 광고 ID (개발 및 테스트용)
-  // Android Test IDs
+  // Android AdMob IDs
   static const String androidBannerAdUnitId =
-      'ca-app-pub-3940256099942544/6300978111';
+      'ca-app-pub-3702899361747571/2599070103';
   static const String androidRewardedAdUnitId =
-      'ca-app-pub-3940256099942544/5224354917';
+      'ca-app-pub-3702899361747571/3206303713';
 
   // iOS Test IDs
   static const String iosBannerAdUnitId =
