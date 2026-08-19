@@ -181,6 +181,10 @@ class RecommendationEngine {
           if (!menu.meat && !menu.tags.any((t) => t.contains('고기') || t.contains('삼겹') || t.contains('소고기') || t.contains('돼지') || t.contains('닭') || t.contains('스테이크'))) {
             return false;
           }
+        } else if (cat == '샐러드') {
+          if (!menu.healthy && !menu.subCategory.contains('샐러드') && !menu.name.contains('샐러드') && !menu.tags.any((t) => t.contains('샐러드') || t.contains('다이어트') || t.contains('포케') || t.contains('건강'))) {
+            return false;
+          }
         } else {
           // 한식, 중식, 일식, 양식, 분식, 패스트푸드, 치킨, 기타
           if (menu.category != cat) {

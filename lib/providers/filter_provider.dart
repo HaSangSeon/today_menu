@@ -15,28 +15,52 @@ class FilterProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void togglePreset(String presetId) {
+    if (_criteria.quickPreset == presetId) {
+      _criteria = const FilterCriteria();
+    } else {
+      _criteria = FilterCriteria.fromPreset(presetId);
+    }
+    _save();
+  }
+
   void updateMealType(String mealType) {
-    _criteria = _criteria.copyWith(mealType: mealType);
+    _criteria = _criteria.copyWith(
+      mealType: mealType,
+      quickPreset: 'none',
+    );
     _save();
   }
 
   void updatePrice(String price) {
-    _criteria = _criteria.copyWith(price: price);
+    _criteria = _criteria.copyWith(
+      price: price,
+      quickPreset: 'none',
+    );
     _save();
   }
 
   void updateCategory(String category) {
-    _criteria = _criteria.copyWith(category: category);
+    _criteria = _criteria.copyWith(
+      category: category,
+      quickPreset: 'none',
+    );
     _save();
   }
 
   void updateCookingTime(String cookingTime) {
-    _criteria = _criteria.copyWith(cookingTime: cookingTime);
+    _criteria = _criteria.copyWith(
+      cookingTime: cookingTime,
+      quickPreset: 'none',
+    );
     _save();
   }
 
   void updatePreference(String preference) {
-    _criteria = _criteria.copyWith(preference: preference);
+    _criteria = _criteria.copyWith(
+      preference: preference,
+      quickPreset: 'none',
+    );
     _save();
   }
 
