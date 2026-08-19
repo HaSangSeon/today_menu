@@ -27,7 +27,7 @@ void main() {
           meat: true,
           healthy: false,
           deliveryAvailable: true,
-          tags: ['국물', '얼큰한'],
+          tags: ['국물', '얼큰한', '매운'],
         ),
         const MenuItem(
           id: 'menu_02',
@@ -97,6 +97,23 @@ void main() {
       expect(result, isNotNull);
       expect(result!.menuItem.name, '김치찌개');
       expect(result.isRelaxed, isFalse);
+    });
+
+    test('스트레스 타파 매운맛 프리셋 및 매운 음식 성향 선택 시 반드시 spicy == true인 음식만 추천', () {
+      // 까다로운 가격/조리시간 조건이 겹치더라도 매운맛은 절대 타협하지 않음
+      final spicyFilter = FilterCriteria.fromPreset('spicy').copyWith(
+        price: '5천원 이하', // mock에는 5천원 이하 매운 음식이 없음
+      );
+
+      final result = engine.recommend(
+        allMenus: mockMenus,
+        filter: spicyFilter,
+        recentExcludedIds: [],
+      );
+
+      expect(result, isNotNull);
+      expect(result!.menuItem.spicy, isTrue);
+      expect(result.menuItem.name, '김치찌개');
     });
 
     test('2차 필터링: 최근 5개 추천 목록에 있는 메뉴는 제외', () {
