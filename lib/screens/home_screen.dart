@@ -210,30 +210,10 @@ class HomeScreen extends StatelessWidget {
                               letterSpacing: -0.3,
                             ),
                           ),
-                          const SizedBox(height: 20),
+                          const SizedBox(height: 16),
 
-                          // Filter Card
-                          Container(
-                            padding: const EdgeInsets.all(18),
-                            decoration: BoxDecoration(
-                              color: Theme.of(context).colorScheme.surface,
-                              borderRadius: BorderRadius.circular(20),
-                              border: Border.all(
-                                color: isDark
-                                    ? AppTheme.cardBorderDark
-                                    : const Color(0xFFECE5DD),
-                                width: 1,
-                              ),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Colors.black.withAlpha(isDark ? 25 : 8),
-                                  blurRadius: 10,
-                                  offset: const Offset(0, 4),
-                                ),
-                              ],
-                            ),
-                            child: const FilterSection(),
-                          ),
+                          // Filter Section (Two distinct cards)
+                          const FilterSection(),
                           const SizedBox(height: 20),
                         ],
                       ),
