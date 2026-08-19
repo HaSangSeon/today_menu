@@ -5,7 +5,7 @@ import 'package:today_menu/models/user_quota.dart';
 
 void main() {
   group('UserQuota & MealHistory Tests', () {
-    test('초기 UserQuota는 dailyFreeLimit(10회)를 가진다', () {
+    test('초기 UserQuota는 dailyFreeLimit(100회)를 가진다', () {
       final quota = UserQuota.initial();
       expect(quota.remainingCount, AppConfig.dailyFreeLimit);
       expect(quota.totalBonusEarnedToday, 0);
@@ -13,27 +13,27 @@ void main() {
 
     test('추천 시 횟수가 1회씩 차감되며 0 이하로는 내려가지 않는다', () {
       var quota = UserQuota.initial();
-      expect(quota.remainingCount, 10);
+      expect(quota.remainingCount, 100);
 
       quota = quota.decrement();
-      expect(quota.remainingCount, 9);
+      expect(quota.remainingCount, 99);
 
-      // 10회 모두 차감
-      for (int i = 0; i < 15; i++) {
+      // 100회 초과 차감
+      for (int i = 0; i < 110; i++) {
         quota = quota.decrement();
       }
       expect(quota.remainingCount, 0);
     });
 
-    test('보상형 광고 시청 시 +3회가 안전하게 지급된다', () {
+    test('보상형 광고 시청 시 +10회가 안전하게 지급된다', () {
       var quota = UserQuota.initial();
       quota = quota.addBonus(AppConfig.rewardAdditionalCount);
 
-      expect(quota.remainingCount, AppConfig.dailyFreeLimit + 3);
-      expect(quota.totalBonusEarnedToday, 3);
+      expect(quota.remainingCount, AppConfig.dailyFreeLimit + 10);
+      expect(quota.totalBonusEarnedToday, 10);
     });
 
-    test('날짜가 변경되면 자동으로 10회로 리셋된다', () {
+    test('날짜가 변경되면 자동으로 100회로 리셋된다', () {
       // 과거 날짜의 0회 소진 상태 quota
       final yesterdayQuota = const UserQuota(
         remainingCount: 0,

@@ -4,9 +4,9 @@ class AppConfig {
   static const String appName = '오늘 뭐 먹지? · 결정장애 해결소';
   static const String appTagline = '오늘 뭐 먹지? 1초 만에 딱 골라드려요';
 
-  // 일일 무료 추천 횟수 및 광고 보상
-  static const int dailyFreeLimit = 10;
-  static const int rewardAdditionalCount = 3;
+  // 일일 무료 추천 횟수 및 광고 보상 (개발/테스트 100회 지원)
+  static const int dailyFreeLimit = 100;
+  static const int rewardAdditionalCount = 10;
   static const int maxHistoryCount = 30;
   static const int maxRecentExclusions = 5;
 

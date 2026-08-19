@@ -40,6 +40,14 @@ class MenuProvider extends ChangeNotifier {
 
     _allMenus = await menuRepository.getAllMenus();
     _userQuota = await storageRepository.loadUserQuota();
+    if (_userQuota.remainingCount < AppConfig.dailyFreeLimit) {
+      _userQuota = UserQuota(
+        remainingCount: AppConfig.dailyFreeLimit,
+        lastDate: UserQuota.todayString,
+        totalBonusEarnedToday: _userQuota.totalBonusEarnedToday,
+      );
+      await storageRepository.saveUserQuota(_userQuota);
+    }
     _recentRecommendedIds = await storageRepository.loadRecentRecommendedIds();
     _mealHistory = await storageRepository.loadMealHistory();
 
