@@ -1,0 +1,9394 @@
+[
+  {
+    "id": "menu_001",
+    "name": "김치찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~10,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "국물",
+      "얼큰한",
+      "든든한",
+      "밥"
+    ]
+  },
+  {
+    "id": "menu_002",
+    "name": "차돌된장찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "구수한",
+      "국물",
+      "밥",
+      "고기"
+    ]
+  },
+  {
+    "id": "menu_003",
+    "name": "돼지순두부찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~10,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "얼큰한",
+      "부드러운",
+      "국물",
+      "밥"
+    ]
+  },
+  {
+    "id": "menu_004",
+    "name": "부대찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "푸짐한",
+      "라면사리",
+      "햄",
+      "국물"
+    ]
+  },
+  {
+    "id": "menu_005",
+    "name": "뼈해장국",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "든든한",
+      "얼큰한",
+      "해장",
+      "고기"
+    ]
+  },
+  {
+    "id": "menu_006",
+    "name": "소고기미역국",
+    "category": "한식",
+    "subCategory": "국",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,000~9,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "생일",
+      "맑은국물",
+      "건강식",
+      "밥"
+    ]
+  },
+  {
+    "id": "menu_007",
+    "name": "맑은콩나물국밥",
+    "category": "한식",
+    "subCategory": "국밥",
+    "mealType": [
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "시원한",
+      "해장",
+      "가성비",
+      "국물"
+    ]
+  },
+  {
+    "id": "menu_008",
+    "name": "얼큰순댓국",
+    "category": "한식",
+    "subCategory": "국밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "든든한",
+      "국밥",
+      "해장",
+      "순대"
+    ]
+  },
+  {
+    "id": "menu_009",
+    "name": "갈비탕",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~16,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "보양식",
+      "고기",
+      "맑은국물",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_010",
+    "name": "설렁탕",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "진한국물",
+      "소면",
+      "깍두기",
+      "보양"
+    ]
+  },
+  {
+    "id": "menu_011",
+    "name": "추어탕",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~12,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "보양식",
+      "구수한",
+      "원기회복",
+      "들깨"
+    ]
+  },
+  {
+    "id": "menu_012",
+    "name": "닭볶음탕",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~28,000원",
+    "cookingTime": 35,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤달콤",
+      "닭고기",
+      "푸짐한",
+      "술안주"
+    ]
+  },
+  {
+    "id": "menu_013",
+    "name": "동태찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "시원칼칼",
+      "생선",
+      "국물",
+      "해장"
+    ]
+  },
+  {
+    "id": "menu_014",
+    "name": "청국장찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~9,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "구수한",
+      "토속적",
+      "건강식",
+      "두부"
+    ]
+  },
+  {
+    "id": "menu_015",
+    "name": "황태해장국",
+    "category": "한식",
+    "subCategory": "국",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~9,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "깔끔한국물",
+      "해장",
+      "시원한",
+      "계란"
+    ]
+  },
+  {
+    "id": "menu_016",
+    "name": "선지해장국",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "칼칼한",
+      "철분",
+      "국밥",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_017",
+    "name": "삼계탕",
+    "category": "한식",
+    "subCategory": "보양식",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "14,000~17,000원",
+    "cookingTime": 40,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "보양식",
+      "닭한마리",
+      "찹쌀",
+      "원기회복"
+    ]
+  },
+  {
+    "id": "menu_018",
+    "name": "소고기무국",
+    "category": "한식",
+    "subCategory": "국",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~9,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "맑은국물",
+      "소고기",
+      "달큰한",
+      "가정식"
+    ]
+  },
+  {
+    "id": "menu_019",
+    "name": "시래기된장국",
+    "category": "한식",
+    "subCategory": "국",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "구수한",
+      "섬유질",
+      "건강식",
+      "소박한"
+    ]
+  },
+  {
+    "id": "menu_020",
+    "name": "오징어무국",
+    "category": "한식",
+    "subCategory": "국",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~9,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "얼큰시원",
+      "해물",
+      "간편국",
+      "개운한"
+    ]
+  },
+  {
+    "id": "menu_021",
+    "name": "육개장",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "얼큰한국물",
+      "소고기",
+      "파개장",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_022",
+    "name": "감자탕",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~30,000원",
+    "cookingTime": 25,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "우거지",
+      "푸짐한",
+      "들깨",
+      "볶음밥"
+    ]
+  },
+  {
+    "id": "menu_023",
+    "name": "도가니탕",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "16,000~20,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "보양식",
+      "콜라겐",
+      "쫀득한",
+      "진한국물"
+    ]
+  },
+  {
+    "id": "menu_024",
+    "name": "알탕",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "칼칼한국물",
+      "해물",
+      "알곤이",
+      "술안주"
+    ]
+  },
+  {
+    "id": "menu_025",
+    "name": "얼큰해물순두부",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "해물",
+      "얼큰한",
+      "순두부",
+      "밥"
+    ]
+  },
+  {
+    "id": "menu_026",
+    "name": "맑은대구매운탕",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~16,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "시원한",
+      "생선탕",
+      "미나리",
+      "해장"
+    ]
+  },
+  {
+    "id": "menu_027",
+    "name": "소고기버섯된장찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~10,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "구수한",
+      "버섯",
+      "된장",
+      "가정식"
+    ]
+  },
+  {
+    "id": "menu_028",
+    "name": "고추장찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~9,500원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "칼칼한",
+      "감자",
+      "돼지고기",
+      "자작한국물"
+    ]
+  },
+  {
+    "id": "menu_029",
+    "name": "바지락순두부찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "혼밥",
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~10,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "시원한국물",
+      "부드러운두부",
+      "담백한",
+      "가정식"
+    ]
+  },
+  {
+    "id": "menu_030",
+    "name": "어묵김치우동탕",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~8,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "칼칼한국물",
+      "어묵",
+      "간단식",
+      "야식"
+    ]
+  },
+  {
+    "id": "menu_031",
+    "name": "꽁치김치찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 18,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "통조림꽁치",
+      "묵은지",
+      "칼칼시원",
+      "자취생명작"
+    ]
+  },
+  {
+    "id": "menu_032",
+    "name": "참치김치찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,500원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "고소한참치",
+      "신김치",
+      "두부송송",
+      "국민찌개"
+    ]
+  },
+  {
+    "id": "menu_033",
+    "name": "감자고추장찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "포슬포슬감자",
+      "애호박돼지고기",
+      "진한장맛",
+      "시골밥상"
+    ]
+  },
+  {
+    "id": "menu_034",
+    "name": "들깨미역국",
+    "category": "한식",
+    "subCategory": "국",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,500원",
+    "cookingTime": 18,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "고소한들깨가루",
+      "부드러운미역",
+      "속편한아침",
+      "웰빙"
+    ]
+  },
+  {
+    "id": "menu_035",
+    "name": "북어계란국",
+    "category": "한식",
+    "subCategory": "국",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "맑고시원한",
+      "북어채",
+      "부드러운계란",
+      "초간단해장"
+    ]
+  },
+  {
+    "id": "menu_036",
+    "name": "소고기버섯전골",
+    "category": "한식",
+    "subCategory": "전골",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~16,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "담백한국물",
+      "각종버섯",
+      "당면사리",
+      "따뜻한"
+    ]
+  },
+  {
+    "id": "menu_037",
+    "name": "버섯소불고기전골",
+    "category": "한식",
+    "subCategory": "전골",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~17,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "달달한국물",
+      "버섯",
+      "당면",
+      "가족식사"
+    ]
+  },
+  {
+    "id": "menu_038",
+    "name": "전주비빔밥",
+    "category": "한식",
+    "subCategory": "비빔밥",
+    "mealType": [
+      "외식",
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "나물",
+      "건강식",
+      "비빔밥",
+      "고추장"
+    ]
+  },
+  {
+    "id": "menu_039",
+    "name": "돌솥비빔밥",
+    "category": "한식",
+    "subCategory": "비빔밥",
+    "mealType": [
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "누룽지",
+      "뜨끈한",
+      "나물",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_040",
+    "name": "제육덮밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~9,500원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤달콤",
+      "돼지고기",
+      "든든한",
+      "직장인인기"
+    ]
+  },
+  {
+    "id": "menu_041",
+    "name": "소불고기덮밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달달한",
+      "소고기",
+      "당면",
+      "아이입맛"
+    ]
+  },
+  {
+    "id": "menu_042",
+    "name": "오징어덮밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤쫄깃",
+      "해물",
+      "불맛",
+      "입맛돋우는"
+    ]
+  },
+  {
+    "id": "menu_043",
+    "name": "낙지덮밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤한",
+      "보양식",
+      "탱글탱글",
+      "불맛"
+    ]
+  },
+  {
+    "id": "menu_044",
+    "name": "김치볶음밥",
+    "category": "한식",
+    "subCategory": "볶음밥",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "간단요리",
+      "계란후라이",
+      "치즈추가",
+      "국민음식"
+    ]
+  },
+  {
+    "id": "menu_045",
+    "name": "스팸계란볶음밥",
+    "category": "한식",
+    "subCategory": "볶음밥",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "초간단",
+      "아이입맛",
+      "고소한",
+      "가성비"
+    ]
+  },
+  {
+    "id": "menu_046",
+    "name": "깍두기볶음밥",
+    "category": "한식",
+    "subCategory": "볶음밥",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "아삭아삭",
+      "차돌박이",
+      "고깃집후식",
+      "중독성"
+    ]
+  },
+  {
+    "id": "menu_047",
+    "name": "곤드레나물밥",
+    "category": "한식",
+    "subCategory": "비빔밥",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "웰빙",
+      "구수한",
+      "간장양념",
+      "건강식"
+    ]
+  },
+  {
+    "id": "menu_048",
+    "name": "꼬막비빔밥",
+    "category": "한식",
+    "subCategory": "비빔밥",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,000~14,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "바다향",
+      "쫄깃한",
+      "부추듬뿍",
+      "별미"
+    ]
+  },
+  {
+    "id": "menu_049",
+    "name": "육회비빔밥",
+    "category": "한식",
+    "subCategory": "비빔밥",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,000~14,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "신선한",
+      "소고기",
+      "참기름향",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_050",
+    "name": "명란마요아보카도밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,500원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "초간단",
+      "고소짭짤",
+      "인스타감성",
+      "간편식"
+    ]
+  },
+  {
+    "id": "menu_051",
+    "name": "간장계란버터밥",
+    "category": "한식",
+    "subCategory": "간편식",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "2,500~4,000원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "추억의맛",
+      "5분요리",
+      "초간단",
+      "가성비최고"
+    ]
+  },
+  {
+    "id": "menu_052",
+    "name": "참치마요덮밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "한솥단골",
+      "고소달달",
+      "간단식",
+      "학생인기"
+    ]
+  },
+  {
+    "id": "menu_053",
+    "name": "치킨마요덮밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "단짠마요",
+      "바삭한",
+      "국민덮밥",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_054",
+    "name": "강된장호박잎쌈밥",
+    "category": "한식",
+    "subCategory": "쌈밥",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "시골밥상",
+      "제철채소",
+      "구수한",
+      "소화잘되는"
+    ]
+  },
+  {
+    "id": "menu_055",
+    "name": "제육쌈밥정식",
+    "category": "한식",
+    "subCategory": "쌈밥",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "신선한쌈",
+      "푸짐한",
+      "불맛제육",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_056",
+    "name": "보쌈정식",
+    "category": "한식",
+    "subCategory": "고기",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,000~15,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "촉촉한수육",
+      "무말랭이",
+      "배추쌈",
+      "영양만점"
+    ]
+  },
+  {
+    "id": "menu_057",
+    "name": "우렁된장쌈밥",
+    "category": "한식",
+    "subCategory": "쌈밥",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "쫄깃우렁",
+      "신선한쌈채소",
+      "구수한쌈장",
+      "건강식"
+    ]
+  },
+  {
+    "id": "menu_058",
+    "name": "소고기버섯죽",
+    "category": "한식",
+    "subCategory": "죽",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "속편한한끼",
+      "부드러운",
+      "영양죽",
+      "회복식"
+    ]
+  },
+  {
+    "id": "menu_059",
+    "name": "전복죽",
+    "category": "한식",
+    "subCategory": "죽",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~18,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "바다내음",
+      "전복내장",
+      "보양식",
+      "고소한참기름"
+    ]
+  },
+  {
+    "id": "menu_060",
+    "name": "호박죽",
+    "category": "한식",
+    "subCategory": "죽",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤부드러운",
+      "새알심",
+      "붓기빼는",
+      "간단식"
+    ]
+  },
+  {
+    "id": "menu_061",
+    "name": "새싹비빔밥",
+    "category": "한식",
+    "subCategory": "비빔밥",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,500원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "아삭상큼",
+      "새싹채소",
+      "초고추장",
+      "다이어트"
+    ]
+  },
+  {
+    "id": "menu_062",
+    "name": "대패삼겹덮밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "대패삼겹살",
+      "간장굴소스",
+      "파채송송",
+      "자취생요리"
+    ]
+  },
+  {
+    "id": "menu_063",
+    "name": "스팸마요덮밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~6,500원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "노릇스팸",
+      "달걀스크램블",
+      "데리야끼마요",
+      "초간단"
+    ]
+  },
+  {
+    "id": "menu_064",
+    "name": "삼겹살구이",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "14,000~18,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "불판구이",
+      "파절이",
+      "회식메뉴",
+      "치익치익"
+    ]
+  },
+  {
+    "id": "menu_065",
+    "name": "한우등심구이",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "35,000~50,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "마블링",
+      "고소한",
+      "특별한날",
+      "육즙가득"
+    ]
+  },
+  {
+    "id": "menu_066",
+    "name": "춘천닭갈비",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "12,000~15,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "철판볶음",
+      "양배추",
+      "고구마",
+      "우동사리"
+    ]
+  },
+  {
+    "id": "menu_067",
+    "name": "간장양념돼지갈비",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~18,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤짭짤",
+      "숯불향",
+      "냉면단짝",
+      "남녀노소"
+    ]
+  },
+  {
+    "id": "menu_068",
+    "name": "고등어구이백반",
+    "category": "한식",
+    "subCategory": "생선구이",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "오메가3",
+      "겉바속촉",
+      "와사비간장",
+      "건강식"
+    ]
+  },
+  {
+    "id": "menu_069",
+    "name": "갈치조림",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~17,000원",
+    "cookingTime": 25,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "칼칼달큰",
+      "무조림",
+      "밥도둑",
+      "생선요리"
+    ]
+  },
+  {
+    "id": "menu_070",
+    "name": "고등어김치찜",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 30,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "묵은지",
+      "생선찜",
+      "밥두공기",
+      "깊은맛"
+    ]
+  },
+  {
+    "id": "menu_071",
+    "name": "두부김치",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~12,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "고소한두부",
+      "볶음김치",
+      "막걸리안주",
+      "야식"
+    ]
+  },
+  {
+    "id": "menu_072",
+    "name": "오삼불고기",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,000원",
+    "cookingTime": 18,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤쫄깃",
+      "오징어와돼지",
+      "푸짐한",
+      "불맛"
+    ]
+  },
+  {
+    "id": "menu_073",
+    "name": "더덕구이정식",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~16,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "향긋한",
+      "고추장양념",
+      "산채요리",
+      "건강식"
+    ]
+  },
+  {
+    "id": "menu_074",
+    "name": "떡갈비정식",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~16,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤육즙",
+      "부드러운",
+      "전통음식",
+      "아이추천"
+    ]
+  },
+  {
+    "id": "menu_075",
+    "name": "훈제오리부추구이",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "11,000~15,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "불포화지방",
+      "머스타드",
+      "향긋한부추",
+      "다이어트"
+    ]
+  },
+  {
+    "id": "menu_076",
+    "name": "우삼겹숙주볶음",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "아삭한숙주",
+      "굴소스",
+      "단짠",
+      "초간단"
+    ]
+  },
+  {
+    "id": "menu_077",
+    "name": "차돌박이구이",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "14,000~18,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "빨리익는",
+      "고소한기름",
+      "된장찌개세트",
+      "파절이"
+    ]
+  },
+  {
+    "id": "menu_078",
+    "name": "안동찜닭",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~28,000원",
+    "cookingTime": 30,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "단짠간장",
+      "당면듬뿍",
+      "감자",
+      "푸짐한"
+    ]
+  },
+  {
+    "id": "menu_079",
+    "name": "간장닭봉조림",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~11,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "단짠단짠",
+      "닭봉",
+      "밥반찬",
+      "아이간식"
+    ]
+  },
+  {
+    "id": "menu_080",
+    "name": "스팸두부조림",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "국민반찬",
+      "매콤자작",
+      "밥도둑",
+      "초간단"
+    ]
+  },
+  {
+    "id": "menu_081",
+    "name": "통돼지김치찜",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~26,000원",
+    "cookingTime": 35,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "묵은지",
+      "돼지고기",
+      "밥도둑",
+      "푸짐한"
+    ]
+  },
+  {
+    "id": "menu_082",
+    "name": "주꾸미삼겹살볶음",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~18,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매운맛",
+      "쭈삼",
+      "마요네즈",
+      "날치알볶음밥"
+    ]
+  },
+  {
+    "id": "menu_083",
+    "name": "매운돼지갈비찜",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "14,000~20,000원",
+    "cookingTime": 30,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "화끈한매운맛",
+      "돼지갈비",
+      "떡사리",
+      "스트레스해소"
+    ]
+  },
+  {
+    "id": "menu_084",
+    "name": "궁중소갈비찜",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "20,000~35,000원",
+    "cookingTime": 40,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "단짠단짠",
+      "부드러운소갈비",
+      "명절음식",
+      "고급한식"
+    ]
+  },
+  {
+    "id": "menu_085",
+    "name": "콩나물불고기(콩불)",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "외식",
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~10,500원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "아삭한콩나물",
+      "대패삼겹살",
+      "볶음밥필수",
+      "가성비"
+    ]
+  },
+  {
+    "id": "menu_086",
+    "name": "훈제삼겹김치볶음",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "불향가득",
+      "묵은지",
+      "간단안주",
+      "밥도둑"
+    ]
+  },
+  {
+    "id": "menu_087",
+    "name": "잔치국수",
+    "category": "한식",
+    "subCategory": "국수",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "멸치육수",
+      "깔끔한",
+      "김치고명",
+      "뜨끈한국물"
+    ]
+  },
+  {
+    "id": "menu_088",
+    "name": "비빔국수",
+    "category": "한식",
+    "subCategory": "국수",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "새콤달콤",
+      "오이송송",
+      "열무김치",
+      "입맛회복"
+    ]
+  },
+  {
+    "id": "menu_089",
+    "name": "바지락칼국수",
+    "category": "한식",
+    "subCategory": "칼국수",
+    "mealType": [
+      "외식",
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~10,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "시원한조개",
+      "겉절이김치",
+      "쫄깃한국수",
+      "든든한국물"
+    ]
+  },
+  {
+    "id": "menu_090",
+    "name": "얼큰장칼국수",
+    "category": "한식",
+    "subCategory": "칼국수",
+    "mealType": [
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "강원도별미",
+      "고추장된장",
+      "걸쭉한국물",
+      "얼큰한"
+    ]
+  },
+  {
+    "id": "menu_091",
+    "name": "들깨칼국수",
+    "category": "한식",
+    "subCategory": "칼국수",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "고소함끝판왕",
+      "진한국물",
+      "속편한",
+      "어르신추천"
+    ]
+  },
+  {
+    "id": "menu_092",
+    "name": "물냉면",
+    "category": "한식",
+    "subCategory": "냉면",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "살얼음육수",
+      "시원한",
+      "식초겨자",
+      "여름필수"
+    ]
+  },
+  {
+    "id": "menu_093",
+    "name": "비빔냉면",
+    "category": "한식",
+    "subCategory": "냉면",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤새콤",
+      "육수한컵",
+      "고기싸먹기",
+      "쫄깃한면"
+    ]
+  },
+  {
+    "id": "menu_094",
+    "name": "콩국수",
+    "category": "한식",
+    "subCategory": "국수",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "고소한콩물",
+      "소금vs설탕",
+      "여름별미",
+      "단백질"
+    ]
+  },
+  {
+    "id": "menu_095",
+    "name": "열무국수",
+    "category": "한식",
+    "subCategory": "국수",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~7,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "아삭한열무",
+      "살얼음동동",
+      "새콤시원",
+      "속풀리는"
+    ]
+  },
+  {
+    "id": "menu_096",
+    "name": "김치말이국수",
+    "category": "한식",
+    "subCategory": "국수",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "새콤칼칼",
+      "동치미육수",
+      "김가루",
+      "야식"
+    ]
+  },
+  {
+    "id": "menu_097",
+    "name": "골뱅이소면무침",
+    "category": "한식",
+    "subCategory": "무침",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~20,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "새콤매콤",
+      "파채듬뿍",
+      "맥주안주",
+      "쫄깃골뱅이"
+    ]
+  },
+  {
+    "id": "menu_098",
+    "name": "도토리묵밥",
+    "category": "한식",
+    "subCategory": "묵요리",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "7,000~8,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "살얼음육수",
+      "탱글탱글",
+      "김치고명",
+      "다이어트식"
+    ]
+  },
+  {
+    "id": "menu_099",
+    "name": "수제비",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~9,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "쫄깃한국물",
+      "감자호박",
+      "비오는날",
+      "겉절이"
+    ]
+  },
+  {
+    "id": "menu_100",
+    "name": "들깨수제비",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 18,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "진한들깨",
+      "구수한",
+      "쫄깃쫄깃",
+      "따뜻한"
+    ]
+  },
+  {
+    "id": "menu_101",
+    "name": "감자전",
+    "category": "한식",
+    "subCategory": "전",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "7,000~12,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "바삭쫀득",
+      "간장양념",
+      "비오는날",
+      "감자100%"
+    ]
+  },
+  {
+    "id": "menu_102",
+    "name": "해물파전",
+    "category": "한식",
+    "subCategory": "전",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~18,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "오징어새우",
+      "쪽파듬뿍",
+      "막걸리단짝",
+      "바삭한"
+    ]
+  },
+  {
+    "id": "menu_103",
+    "name": "김치전",
+    "category": "한식",
+    "subCategory": "전",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,000~8,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "바삭한테두리",
+      "오징어추가",
+      "간편야식",
+      "추억의맛"
+    ]
+  },
+  {
+    "id": "menu_104",
+    "name": "육전",
+    "category": "한식",
+    "subCategory": "전",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "16,000~22,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "부드러운소고기",
+      "파절이조합",
+      "고급안주",
+      "고소한"
+    ]
+  },
+  {
+    "id": "menu_105",
+    "name": "잡채밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "탱글한당면",
+      "불맛",
+      "야채듬뿍",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_106",
+    "name": "도토리묵무침",
+    "category": "한식",
+    "subCategory": "무침",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~12,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "향긋한미나리",
+      "탱글한묵",
+      "가벼운안주",
+      "저칼로리"
+    ]
+  },
+  {
+    "id": "menu_107",
+    "name": "모둠전막걸리세트",
+    "category": "한식",
+    "subCategory": "전",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~28,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "동태전고추전깻잎전",
+      "비오는날",
+      "막걸리",
+      "푸짐한"
+    ]
+  },
+  {
+    "id": "menu_108",
+    "name": "녹두빈대떡",
+    "category": "한식",
+    "subCategory": "전",
+    "mealType": [
+      "외식",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~9,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "겉바속촉",
+      "광장시장명물",
+      "양파간장",
+      "고소한"
+    ]
+  },
+  {
+    "id": "menu_109",
+    "name": "얼큰해물칼국수",
+    "category": "한식",
+    "subCategory": "칼국수",
+    "mealType": [
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "시원얼큰",
+      "꽃게새우홍합",
+      "칼국수",
+      "해장"
+    ]
+  },
+  {
+    "id": "menu_110",
+    "name": "묵은지수제비",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,500원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "새콤칼칼",
+      "쫄깃한국물",
+      "묵은지",
+      "비오는날"
+    ]
+  },
+  {
+    "id": "menu_111",
+    "name": "바지락미역국수",
+    "category": "한식",
+    "subCategory": "국수",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "시원바지락",
+      "맑은미역국",
+      "소면사리",
+      "속편한"
+    ]
+  },
+  {
+    "id": "menu_112",
+    "name": "차돌된장라면",
+    "category": "한식",
+    "subCategory": "라면",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,500원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "구수한된장라면",
+      "차돌박이",
+      "청양고추",
+      "진한국물"
+    ]
+  },
+  {
+    "id": "menu_113",
+    "name": "김치어묵라면",
+    "category": "한식",
+    "subCategory": "라면",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,000원",
+    "cookingTime": 7,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "신김치",
+      "쫄깃어묵",
+      "얼큰해장",
+      "야식"
+    ]
+  },
+  {
+    "id": "menu_114",
+    "name": "치즈감자전",
+    "category": "한식",
+    "subCategory": "전",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "채썬감자",
+      "모짜렐라치즈",
+      "겉바속촉",
+      "맥주안주"
+    ]
+  },
+  {
+    "id": "menu_115",
+    "name": "두부김치카나페",
+    "category": "한식",
+    "subCategory": "핑거푸드",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "구운두부",
+      "볶음김치참치",
+      "와인/맥주안주",
+      "저칼로리"
+    ]
+  },
+  {
+    "id": "menu_116",
+    "name": "짜장면",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "춘장소스",
+      "단무지필수",
+      "국민외식",
+      "달콤짭짤"
+    ]
+  },
+  {
+    "id": "menu_117",
+    "name": "간짜장",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~9,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "양파가득",
+      "불맛",
+      "계란후라이",
+      "진한맛"
+    ]
+  },
+  {
+    "id": "menu_118",
+    "name": "해물짬뽕",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "얼큰칼칼",
+      "불맛",
+      "해물듬뿍",
+      "해장최고"
+    ]
+  },
+  {
+    "id": "menu_119",
+    "name": "차돌짬뽕",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~12,500원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "진한국물",
+      "차돌박이",
+      "불맛가득",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_120",
+    "name": "백짬뽕",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "담백칼칼",
+      "굴/해물",
+      "시원한국물",
+      "깔끔한"
+    ]
+  },
+  {
+    "id": "menu_121",
+    "name": "사천짜장면",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~9,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤붉은춘장",
+      "해물고기",
+      "매운맛마니아",
+      "불맛"
+    ]
+  },
+  {
+    "id": "menu_122",
+    "name": "굴짬뽕",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "제철통영굴",
+      "시원담백육수",
+      "겨울별미",
+      "보양짬뽕"
+    ]
+  },
+  {
+    "id": "menu_123",
+    "name": "찹쌀탕수육(꿔바로우)",
+    "category": "중식",
+    "subCategory": "튀김",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~22,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭쫀득",
+      "새콤달콤",
+      "부먹찍먹",
+      "중식대표"
+    ]
+  },
+  {
+    "id": "menu_124",
+    "name": "사천탕수육",
+    "category": "중식",
+    "subCategory": "튀김",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "16,000~23,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤바삭",
+      "불맛양념",
+      "맥주안주",
+      "느끼함제로"
+    ]
+  },
+  {
+    "id": "menu_125",
+    "name": "마파두부덮밥",
+    "category": "중식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "화끈한맛",
+      "부드러운두부",
+      "마라향",
+      "밥도둑"
+    ]
+  },
+  {
+    "id": "menu_126",
+    "name": "마라탕",
+    "category": "중식",
+    "subCategory": "탕",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~15,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "알싸한맛",
+      "취향토핑",
+      "옥수수면",
+      "MZ최애"
+    ]
+  },
+  {
+    "id": "menu_127",
+    "name": "마라샹궈",
+    "category": "중식",
+    "subCategory": "볶음",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~25,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "강렬한불맛",
+      "마라볶음",
+      "밥/맥주도둑",
+      "푸짐한"
+    ]
+  },
+  {
+    "id": "menu_128",
+    "name": "중화볶음밥",
+    "category": "중식",
+    "subCategory": "볶음밥",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~9,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "고슬고슬",
+      "짜장소스",
+      "짬뽕국물",
+      "계란후라이"
+    ]
+  },
+  {
+    "id": "menu_129",
+    "name": "유린기",
+    "category": "중식",
+    "subCategory": "닭요리",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~25,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭한닭튀김",
+      "청양고추",
+      "새콤간장",
+      "아삭양상추"
+    ]
+  },
+  {
+    "id": "menu_130",
+    "name": "깐풍기",
+    "category": "중식",
+    "subCategory": "닭요리",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~25,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤달콤",
+      "바삭한식감",
+      "맥주안주",
+      "불맛"
+    ]
+  },
+  {
+    "id": "menu_131",
+    "name": "칠리새우",
+    "category": "중식",
+    "subCategory": "해물",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~26,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "탱글한새우",
+      "새콤매콤달콤",
+      "고급요리",
+      "바삭한"
+    ]
+  },
+  {
+    "id": "menu_132",
+    "name": "크림새우",
+    "category": "중식",
+    "subCategory": "해물",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~26,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "부드러운크림",
+      "달콤상큼",
+      "탱글한새우",
+      "여성인기"
+    ]
+  },
+  {
+    "id": "menu_133",
+    "name": "고추잡채꽃빵",
+    "category": "중식",
+    "subCategory": "볶음",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~24,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "피망가득",
+      "부드러운꽃빵",
+      "불맛돼지고기",
+      "고급중식"
+    ]
+  },
+  {
+    "id": "menu_134",
+    "name": "동파육",
+    "category": "중식",
+    "subCategory": "고기",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "25,000~35,000원",
+    "cookingTime": 40,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "입에서살살",
+      "단짠간장",
+      "청경채",
+      "정통중식"
+    ]
+  },
+  {
+    "id": "menu_135",
+    "name": "어향가지덮밥",
+    "category": "중식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "외식",
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "겉바속촉가지",
+      "새콤매콤",
+      "중화풍미",
+      "채소요리"
+    ]
+  },
+  {
+    "id": "menu_136",
+    "name": "군만두/물만두",
+    "category": "중식",
+    "subCategory": "만두",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭촉촉",
+      "간장식초",
+      "사이드메뉴",
+      "간편야식"
+    ]
+  },
+  {
+    "id": "menu_137",
+    "name": "울면",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~9,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "걸쭉한국물",
+      "계란해물",
+      "부드러운",
+      "속편한"
+    ]
+  },
+  {
+    "id": "menu_138",
+    "name": "우육면",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "대만식풍미",
+      "진한소고기",
+      "청경채",
+      "이색면"
+    ]
+  },
+  {
+    "id": "menu_139",
+    "name": "딤섬/샤오롱바오",
+    "category": "중식",
+    "subCategory": "만두",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~13,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "육즙팡팡",
+      "생강간장",
+      "홍콩감성",
+      "부드러운"
+    ]
+  },
+  {
+    "id": "menu_140",
+    "name": "탄탄면",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,500원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "고소한땅콩",
+      "얼큰칼칼",
+      "다진고기",
+      "중독성있는"
+    ]
+  },
+  {
+    "id": "menu_141",
+    "name": "멘보샤",
+    "category": "중식",
+    "subCategory": "튀김",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~18,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭한식빵",
+      "탱글한다진새우",
+      "칠리소스",
+      "맥주안주"
+    ]
+  },
+  {
+    "id": "menu_142",
+    "name": "양꼬치구이",
+    "category": "중식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "14,000~20,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "쯔란가루",
+      "칭따오맥주",
+      "숯불자동회전",
+      "불맛"
+    ]
+  },
+  {
+    "id": "menu_143",
+    "name": "팔보채",
+    "category": "중식",
+    "subCategory": "해물",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "25,000~35,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "신선한해물",
+      "버섯야채",
+      "담백한풍미",
+      "특별한날"
+    ]
+  },
+  {
+    "id": "menu_144",
+    "name": "중국식냉면",
+    "category": "중식",
+    "subCategory": "냉면",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "땅콩소스",
+      "겨자육수",
+      "해물고명",
+      "여름별미"
+    ]
+  },
+  {
+    "id": "menu_145",
+    "name": "라조기",
+    "category": "중식",
+    "subCategory": "닭요리",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "19,000~26,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤닭튀김",
+      "죽순표고",
+      "화끈한불맛",
+      "술안주"
+    ]
+  },
+  {
+    "id": "menu_146",
+    "name": "해물누룽지탕",
+    "category": "중식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "16,000~25,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭한국내산누룽지",
+      "지글지글해물소스",
+      "고급중식",
+      "속편한"
+    ]
+  },
+  {
+    "id": "menu_147",
+    "name": "마라볶음면",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "화끈알싸한맛",
+      "중화생면",
+      "청경채숙주",
+      "MZ최애"
+    ]
+  },
+  {
+    "id": "menu_148",
+    "name": "동파육덮밥",
+    "category": "중식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~15,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "두툼한돼지고기",
+      "단짠특제소스",
+      "청경채",
+      "고급한그릇"
+    ]
+  },
+  {
+    "id": "menu_149",
+    "name": "게살볶음밥",
+    "category": "중식",
+    "subCategory": "볶음밥",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~9,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "리얼게살",
+      "고슬고슬밥",
+      "짜장소스",
+      "아이입맛"
+    ]
+  },
+  {
+    "id": "menu_150",
+    "name": "등심돈카츠",
+    "category": "일식",
+    "subCategory": "카츠",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭바삭",
+      "두툼한고기",
+      "와사비소금",
+      "양배추샐러드"
+    ]
+  },
+  {
+    "id": "menu_151",
+    "name": "치즈돈카츠",
+    "category": "일식",
+    "subCategory": "카츠",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,500~13,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "치즈줄줄",
+      "바삭한튀김",
+      "인스타핫플",
+      "남녀노소"
+    ]
+  },
+  {
+    "id": "menu_152",
+    "name": "안심히레카츠",
+    "category": "일식",
+    "subCategory": "카츠",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,500~14,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "부드러운육질",
+      "핑크빛육즙",
+      "고급카츠",
+      "담백한"
+    ]
+  },
+  {
+    "id": "menu_153",
+    "name": "연어초밥",
+    "category": "일식",
+    "subCategory": "초밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~18,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "입에서녹는",
+      "생와사비",
+      "양파타르타르",
+      "깔끔한"
+    ]
+  },
+  {
+    "id": "menu_154",
+    "name": "모둠초밥",
+    "category": "일식",
+    "subCategory": "초밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~20,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "다양한생선",
+      "우동세트",
+      "고급점심",
+      "신선한"
+    ]
+  },
+  {
+    "id": "menu_155",
+    "name": "사케동(연어덮밥)",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~15,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "생연어",
+      "무순",
+      "초생강",
+      "깔끔한한그릇"
+    ]
+  },
+  {
+    "id": "menu_156",
+    "name": "가츠동(돈까스덮밥)",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~10,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "촉촉한계란",
+      "단짠쯔유",
+      "양파조림",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_157",
+    "name": "규동(소고기덮밥)",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "우삼겹",
+      "초생강",
+      "온천계란",
+      "간단식"
+    ]
+  },
+  {
+    "id": "menu_158",
+    "name": "오야꼬동(닭고기덮밥)",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~9,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "부드러운닭다리살",
+      "계란이불",
+      "단짠단짠",
+      "담백한"
+    ]
+  },
+  {
+    "id": "menu_159",
+    "name": "에비동(새우튀김덮밥)",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "통새우튀김",
+      "부드러운계란덮밥",
+      "단짠쯔유",
+      "인기덮밥"
+    ]
+  },
+  {
+    "id": "menu_160",
+    "name": "돈코츠라멘",
+    "category": "일식",
+    "subCategory": "라멘",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "진한돼지사골",
+      "차슈",
+      "반숙맛계란",
+      "목이버섯"
+    ]
+  },
+  {
+    "id": "menu_161",
+    "name": "매운카라이라멘",
+    "category": "일식",
+    "subCategory": "라멘",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "칼칼한국물",
+      "얼큰한라멘",
+      "해장라멘",
+      "불맛"
+    ]
+  },
+  {
+    "id": "menu_162",
+    "name": "쇼유/미소라멘",
+    "category": "일식",
+    "subCategory": "라멘",
+    "mealType": [
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "깔끔간장/구수한된장",
+      "차슈",
+      "담백한",
+      "일본감성"
+    ]
+  },
+  {
+    "id": "menu_163",
+    "name": "마제소바",
+    "category": "일식",
+    "subCategory": "비빔면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "다진고기",
+      "다시마식초",
+      "밥비벼먹기",
+      "감칠맛폭발"
+    ]
+  },
+  {
+    "id": "menu_164",
+    "name": "붓카케냉우동",
+    "category": "일식",
+    "subCategory": "우동",
+    "mealType": [
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~10,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "쫄깃탱탱한면발",
+      "차가운쯔유",
+      "튀김토핑",
+      "여름인기"
+    ]
+  },
+  {
+    "id": "menu_165",
+    "name": "새우튀김우동",
+    "category": "일식",
+    "subCategory": "우동",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "따끈한국물",
+      "바삭한새우튀김",
+      "쑥갓",
+      "휴게소감성"
+    ]
+  },
+  {
+    "id": "menu_166",
+    "name": "메밀소바(판모밀)",
+    "category": "일식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~10,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "시원한쯔유",
+      "간무/와사비",
+      "깔끔담백",
+      "다이어트"
+    ]
+  },
+  {
+    "id": "menu_167",
+    "name": "야키소바",
+    "category": "일식",
+    "subCategory": "볶음면",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "가쓰오부시",
+      "마요네즈",
+      "단짠소스",
+      "이자카야안주"
+    ]
+  },
+  {
+    "id": "menu_168",
+    "name": "오코노미야키",
+    "category": "일식",
+    "subCategory": "부침",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~15,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "양배추듬뿍",
+      "춤추는가쓰오부시",
+      "맥주안주",
+      "달콤고소"
+    ]
+  },
+  {
+    "id": "menu_169",
+    "name": "타코야키",
+    "category": "일식",
+    "subCategory": "간식",
+    "mealType": [
+      "분식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "겉바속촉문어볼",
+      "마요네즈소스",
+      "길거리간식",
+      "야식"
+    ]
+  },
+  {
+    "id": "menu_170",
+    "name": "일본식카레라이스",
+    "category": "일식",
+    "subCategory": "카레",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "7,000~9,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "진하고달큰한맛",
+      "마늘후레이크",
+      "돈까스토핑",
+      "간편식"
+    ]
+  },
+  {
+    "id": "menu_171",
+    "name": "가츠카레",
+    "category": "일식",
+    "subCategory": "카레",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭등심카츠",
+      "진한일본카레",
+      "마늘칩",
+      "든든한국민메뉴"
+    ]
+  },
+  {
+    "id": "menu_172",
+    "name": "텐동(모둠튀김덮밥)",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,000~15,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭한튀김꽃",
+      "온천계란튀김",
+      "단짠타래소스",
+      "시각과미각"
+    ]
+  },
+  {
+    "id": "menu_173",
+    "name": "장어덮밥(우나기동)",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "20,000~35,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "특제데리야끼",
+      "원기회복",
+      "고급보양식",
+      "부드러운장어"
+    ]
+  },
+  {
+    "id": "menu_174",
+    "name": "스끼야끼",
+    "category": "일식",
+    "subCategory": "전골",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "18,000~28,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "달콤짭짤육수",
+      "날계란퐁당",
+      "소고기야채",
+      "일본가정식"
+    ]
+  },
+  {
+    "id": "menu_175",
+    "name": "치킨가라아게정식",
+    "category": "일식",
+    "subCategory": "정식",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭촉촉닭튀김",
+      "레몬즙",
+      "마요네즈",
+      "맥주안주"
+    ]
+  },
+  {
+    "id": "menu_176",
+    "name": "후토마키",
+    "category": "일식",
+    "subCategory": "김밥",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~18,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "대왕김밥",
+      "생선회와새우튀김",
+      "한입가득",
+      "고급일식"
+    ]
+  },
+  {
+    "id": "menu_177",
+    "name": "명란크림우동",
+    "category": "일식",
+    "subCategory": "우동",
+    "mealType": [
+      "외식",
+      "혼밥",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "짭쪼름명란",
+      "꾸덕한크림",
+      "쪽파김가루",
+      "퓨전일식"
+    ]
+  },
+  {
+    "id": "menu_178",
+    "name": "나가사키짬뽕탕",
+    "category": "일식",
+    "subCategory": "탕",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~20,000원",
+    "cookingTime": 18,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "뽀얀사골육수",
+      "해물야채",
+      "칼칼시원",
+      "술안주베스트"
+    ]
+  },
+  {
+    "id": "menu_179",
+    "name": "모츠나베(대창전골)",
+    "category": "일식",
+    "subCategory": "전골",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "18,000~30,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "고소한한우대창",
+      "부추듬뿍",
+      "칼칼한국물",
+      "죽만들어먹기"
+    ]
+  },
+  {
+    "id": "menu_180",
+    "name": "치킨남반정식",
+    "category": "일식",
+    "subCategory": "정식",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "새콤달콤난반식초",
+      "에그타르타르소스",
+      "바삭치킨",
+      "미야자키명물"
+    ]
+  },
+  {
+    "id": "menu_181",
+    "name": "냉우동(자루우동)",
+    "category": "일식",
+    "subCategory": "우동",
+    "mealType": [
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~9,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "차가운쯔유",
+      "쫄깃탱탱면",
+      "와사비무즙",
+      "여름점심"
+    ]
+  },
+  {
+    "id": "menu_182",
+    "name": "해물볶음우동",
+    "category": "일식",
+    "subCategory": "우동",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,500원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤굴소스",
+      "오징어새우",
+      "가쓰오부시",
+      "불맛"
+    ]
+  },
+  {
+    "id": "menu_183",
+    "name": "치즈나베돈까스",
+    "category": "일식",
+    "subCategory": "나베",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "얼큰한국물",
+      "치즈돈까스퐁당",
+      "촉촉한밥",
+      "따뜻한"
+    ]
+  },
+  {
+    "id": "menu_184",
+    "name": "토마토미트볼스파게티",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "새콤달콤토마토",
+      "육즙미트볼",
+      "파마산치즈",
+      "클래식"
+    ]
+  },
+  {
+    "id": "menu_185",
+    "name": "베이컨까르보나라",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~13,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "꾸덕한크림",
+      "고소한베이컨",
+      "노른자",
+      "인기파스타"
+    ]
+  },
+  {
+    "id": "menu_186",
+    "name": "매콤투움바파스타",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,500~15,500원",
+    "cookingTime": 18,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤꾸덕",
+      "새우양송이",
+      "아웃백스타일",
+      "중독성있는"
+    ]
+  },
+  {
+    "id": "menu_187",
+    "name": "봉골레오일파스타",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~14,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "신선한바지락",
+      "마늘올리브유",
+      "깔끔담백",
+      "화이트와인"
+    ]
+  },
+  {
+    "id": "menu_188",
+    "name": "알리오올리오",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "7,000~10,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "마늘풍미",
+      "페페론치노",
+      "초간단파스타",
+      "가성비최고"
+    ]
+  },
+  {
+    "id": "menu_189",
+    "name": "쉬림프로제파스타",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,500~14,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "크림과토마토의황금비율",
+      "통통새우",
+      "파슬리가루",
+      "인기1위"
+    ]
+  },
+  {
+    "id": "menu_190",
+    "name": "명란오일파스타",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~13,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "짭쪼름명란",
+      "마늘쫑마늘",
+      "깔끔담백",
+      "한국인취향"
+    ]
+  },
+  {
+    "id": "menu_191",
+    "name": "우삼겹오일파스타",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,500원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "고소한우삼겹",
+      "매콤페페론치노",
+      "오일파스타",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_192",
+    "name": "바질페스토파스타",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,500~14,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "향긋한바질",
+      "잣과치즈",
+      "방울토마토",
+      "초록빛파스타"
+    ]
+  },
+  {
+    "id": "menu_193",
+    "name": "라자냐",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~18,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "층층이치즈와라구",
+      "오븐구이",
+      "녹진한맛",
+      "이탈리아가정식"
+    ]
+  },
+  {
+    "id": "menu_194",
+    "name": "포르치니버섯뇨끼",
+    "category": "양식",
+    "subCategory": "양식",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "14,000~19,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "쫀득한감자반죽",
+      "진한버섯크림",
+      "트러플오일",
+      "고급양식"
+    ]
+  },
+  {
+    "id": "menu_195",
+    "name": "해산물토마토리조또",
+    "category": "양식",
+    "subCategory": "리조또",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "11,000~14,500원",
+    "cookingTime": 18,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "새우오징어조개",
+      "상큼토마토",
+      "촉촉한밥",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_196",
+    "name": "트러플버섯크림리조또",
+    "category": "양식",
+    "subCategory": "리조또",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~17,000원",
+    "cookingTime": 18,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "고급트러플향",
+      "녹진한크림",
+      "다양한버섯",
+      "풍미가득"
+    ]
+  },
+  {
+    "id": "menu_197",
+    "name": "치킨도리아/그라탕",
+    "category": "양식",
+    "subCategory": "밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "치즈오븐구이",
+      "볶음밥",
+      "화이트소스",
+      "따뜻한"
+    ]
+  },
+  {
+    "id": "menu_198",
+    "name": "페퍼로니피자",
+    "category": "양식",
+    "subCategory": "피자",
+    "mealType": [
+      "배달",
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "12,000~18,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "짭짤한페퍼로니",
+      "모짜렐라치즈",
+      "도우바삭",
+      "맥주/콜라단짝"
+    ]
+  },
+  {
+    "id": "menu_199",
+    "name": "고르곤졸라피자",
+    "category": "양식",
+    "subCategory": "피자",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "12,000~16,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "꿀찍어먹는",
+      "블루치즈향",
+      "얇은씬도우",
+      "달콤고소"
+    ]
+  },
+  {
+    "id": "menu_200",
+    "name": "포테이토베이컨피자",
+    "category": "양식",
+    "subCategory": "피자",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~23,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "웨지감자",
+      "마요네즈소스",
+      "푸짐한토핑",
+      "국민피자"
+    ]
+  },
+  {
+    "id": "menu_201",
+    "name": "불고기피자",
+    "category": "양식",
+    "subCategory": "피자",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "13,000~19,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤한불고기",
+      "피망양파",
+      "국민최애피자",
+      "남녀노소"
+    ]
+  },
+  {
+    "id": "menu_202",
+    "name": "하와이안피자",
+    "category": "양식",
+    "subCategory": "피자",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "12,000~17,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤파인애플",
+      "짭조름베이컨",
+      "호불호끝판왕",
+      "상큼고소"
+    ]
+  },
+  {
+    "id": "menu_203",
+    "name": "시카고딥디쉬피자",
+    "category": "양식",
+    "subCategory": "피자",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~26,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "치즈폭포",
+      "두툼한도우",
+      "토마토소스듬뿍",
+      "치즈덕후"
+    ]
+  },
+  {
+    "id": "menu_204",
+    "name": "채끝안심스테이크",
+    "category": "양식",
+    "subCategory": "스테이크",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "28,000~45,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "육즙팡팡",
+      "홀그레인머스타드",
+      "아스파라거스",
+      "기념일"
+    ]
+  },
+  {
+    "id": "menu_205",
+    "name": "함박스테이크",
+    "category": "양식",
+    "subCategory": "양식",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "부드러운다진고기",
+      "데미글라스소스",
+      "반숙계란",
+      "가정식"
+    ]
+  },
+  {
+    "id": "menu_206",
+    "name": "찹스테이크",
+    "category": "양식",
+    "subCategory": "고기",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~22,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "한입크기소고기",
+      "달콤스테이크소스",
+      "파프리카양파",
+      "캠핑요리"
+    ]
+  },
+  {
+    "id": "menu_207",
+    "name": "감바스알아히요",
+    "category": "양식",
+    "subCategory": "스페인식",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "12,000~17,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "올리브오일",
+      "탱글새우",
+      "바게트빵찍먹",
+      "와인안주"
+    ]
+  },
+  {
+    "id": "menu_208",
+    "name": "에그인헬(샥슈카)",
+    "category": "양식",
+    "subCategory": "스튜",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~13,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "매콤토마토스튜",
+      "반숙계란",
+      "빵에올려먹기",
+      "브런치"
+    ]
+  },
+  {
+    "id": "menu_209",
+    "name": "클래식브런치플래터",
+    "category": "양식",
+    "subCategory": "브런치",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "11,000~15,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "팬케이크",
+      "스크램블에그",
+      "소시지베이컨",
+      "샐러드"
+    ]
+  },
+  {
+    "id": "menu_210",
+    "name": "리코타치즈샐러드",
+    "category": "양식",
+    "subCategory": "샐러드",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "신선한채소",
+      "수제리코타",
+      "발사믹글레이즈",
+      "가벼운한끼"
+    ]
+  },
+  {
+    "id": "menu_211",
+    "name": "클램차우더스프",
+    "category": "양식",
+    "subCategory": "스프",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~8,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "조개크림스프",
+      "따뜻하고부드러운",
+      "식전빵",
+      "속편한"
+    ]
+  },
+  {
+    "id": "menu_212",
+    "name": "치킨텐더시저샐러드",
+    "category": "양식",
+    "subCategory": "샐러드",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭치킨텐더",
+      "로메인상추",
+      "크루통",
+      "시저드레싱"
+    ]
+  },
+  {
+    "id": "menu_213",
+    "name": "닭가슴살아보카도샐러드",
+    "category": "양식",
+    "subCategory": "샐러드",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "고단백",
+      "아보카도",
+      "오리엔탈드레싱",
+      "식단관리"
+    ]
+  },
+  {
+    "id": "menu_214",
+    "name": "잠봉뵈르샌드위치",
+    "category": "양식",
+    "subCategory": "샌드위치",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~11,000원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바게트빵",
+      "프랑스버터",
+      "담백한햄",
+      "프랑스감성"
+    ]
+  },
+  {
+    "id": "menu_215",
+    "name": "크림치즈연어베이글",
+    "category": "양식",
+    "subCategory": "샌드위치",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~10,000원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "쫄깃한베이글",
+      "훈제연어",
+      "두툼한크림치즈",
+      "든든브런치"
+    ]
+  },
+  {
+    "id": "menu_216",
+    "name": "부라타치즈토마토샐러드",
+    "category": "양식",
+    "subCategory": "샐러드",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~14,000원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "몽글몽글부라타",
+      "달콤방울토마토",
+      "올리브유",
+      "와인페어링"
+    ]
+  },
+  {
+    "id": "menu_217",
+    "name": "단호박크림스프",
+    "category": "양식",
+    "subCategory": "스프",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤부드러운",
+      "생크림",
+      "크루통",
+      "건강식"
+    ]
+  },
+  {
+    "id": "menu_218",
+    "name": "감자치즈그라탕",
+    "category": "양식",
+    "subCategory": "양식",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,500원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "삶은감자",
+      "베이컨치즈",
+      "오븐구이",
+      "고소한간식"
+    ]
+  },
+  {
+    "id": "menu_219",
+    "name": "매콤쌀떡볶이",
+    "category": "분식",
+    "subCategory": "떡볶이",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,000~6,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "쫄깃한국민간식",
+      "어묵가득",
+      "어묵국물단짝",
+      "달콤매콤"
+    ]
+  },
+  {
+    "id": "menu_220",
+    "name": "국물떡볶이",
+    "category": "분식",
+    "subCategory": "떡볶이",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "숟가락으로떠먹는",
+      "튀김찍먹",
+      "밀떡파",
+      "매콤한국물"
+    ]
+  },
+  {
+    "id": "menu_221",
+    "name": "로제떡볶이",
+    "category": "분식",
+    "subCategory": "떡볶이",
+    "mealType": [
+      "배달",
+      "분식",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "꾸덕한크림과매콤함",
+      "중국당면",
+      "소시지베이컨",
+      "MZ대세"
+    ]
+  },
+  {
+    "id": "menu_222",
+    "name": "마라떡볶이",
+    "category": "분식",
+    "subCategory": "떡볶이",
+    "mealType": [
+      "배달",
+      "분식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "얼얼한마라",
+      "유부토핑",
+      "분모자",
+      "중독성있는"
+    ]
+  },
+  {
+    "id": "menu_223",
+    "name": "짜장떡볶이",
+    "category": "분식",
+    "subCategory": "떡볶이",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤고소짜장소스",
+      "아이들간식",
+      "밀떡어묵",
+      "추억의맛"
+    ]
+  },
+  {
+    "id": "menu_224",
+    "name": "치즈라볶이",
+    "category": "분식",
+    "subCategory": "떡볶이",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "모짜렐라체다치즈",
+      "라면사리",
+      "매콤달콤",
+      "푸짐한"
+    ]
+  },
+  {
+    "id": "menu_225",
+    "name": "참치마요김밥",
+    "category": "분식",
+    "subCategory": "김밥",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,000~5,000원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "고소한참치마요",
+      "깻잎향",
+      "분식대표",
+      "간편한끼"
+    ]
+  },
+  {
+    "id": "menu_226",
+    "name": "원조야채김밥",
+    "category": "분식",
+    "subCategory": "김밥",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "3,500~4,500원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "당근우엉단무지",
+      "참기름솔솔",
+      "기본김밥",
+      "가성비"
+    ]
+  },
+  {
+    "id": "menu_227",
+    "name": "치즈김밥",
+    "category": "분식",
+    "subCategory": "김밥",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,000~5,000원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "고소한체다치즈",
+      "떡볶이단짝",
+      "라면과함께",
+      "인기김밥"
+    ]
+  },
+  {
+    "id": "menu_228",
+    "name": "돈까스김밥",
+    "category": "분식",
+    "subCategory": "김밥",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~5,500원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭한돈까스",
+      "돈까스소스마요네즈",
+      "인기김밥",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_229",
+    "name": "매콤진미채김밥",
+    "category": "분식",
+    "subCategory": "김밥",
+    "mealType": [
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~5,500원",
+    "cookingTime": 5,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤쫄깃진미채",
+      "별미김밥",
+      "입맛당기는",
+      "매운맛"
+    ]
+  },
+  {
+    "id": "menu_230",
+    "name": "찰순대(내장포함)",
+    "category": "분식",
+    "subCategory": "순대",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,000~6,000원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "소금쌈장초장",
+      "간허파오소리",
+      "떡볶이단짝",
+      "쫄깃한"
+    ]
+  },
+  {
+    "id": "menu_231",
+    "name": "모둠수제튀김",
+    "category": "분식",
+    "subCategory": "튀김",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "김말이오징어고구마",
+      "바삭바삭",
+      "떡볶이국물필수",
+      "길거리간식"
+    ]
+  },
+  {
+    "id": "menu_232",
+    "name": "부산어묵꼬치물어묵",
+    "category": "분식",
+    "subCategory": "어묵",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "3,000~5,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "뜨끈한어묵국물",
+      "간장콕",
+      "겨울철필수",
+      "가성비"
+    ]
+  },
+  {
+    "id": "menu_233",
+    "name": "매운빨간어묵",
+    "category": "분식",
+    "subCategory": "어묵",
+    "mealType": [
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "3,500~5,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "제천빨간오뎅",
+      "칼칼얼큰",
+      "콩나물고명",
+      "땀나는맛"
+    ]
+  },
+  {
+    "id": "menu_234",
+    "name": "신라면/분식점라면",
+    "category": "분식",
+    "subCategory": "라면",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "3,500~5,000원",
+    "cookingTime": 5,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "양은냄비",
+      "계란탁파송송",
+      "김치한조각",
+      "5분완성"
+    ]
+  },
+  {
+    "id": "menu_235",
+    "name": "해물라면",
+    "category": "분식",
+    "subCategory": "라면",
+    "mealType": [
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 8,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "꽃게홍합새우",
+      "얼큰시원",
+      "해장라면",
+      "국물끝판왕"
+    ]
+  },
+  {
+    "id": "menu_236",
+    "name": "치즈라면",
+    "category": "분식",
+    "subCategory": "라면",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,000~5,500원",
+    "cookingTime": 6,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "체다치즈한장",
+      "고소한국물",
+      "매운맛중화",
+      "야식추천"
+    ]
+  },
+  {
+    "id": "menu_237",
+    "name": "비빔만두",
+    "category": "분식",
+    "subCategory": "만두",
+    "mealType": [
+      "분식",
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭한납작만두",
+      "새콤달콤야채무침",
+      "대구명물",
+      "중독성있는"
+    ]
+  },
+  {
+    "id": "menu_238",
+    "name": "라볶이",
+    "category": "분식",
+    "subCategory": "떡볶이",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,500원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "라면과떡볶이의만남",
+      "어묵계란",
+      "푸짐한",
+      "학생최애"
+    ]
+  },
+  {
+    "id": "menu_239",
+    "name": "쫄면",
+    "category": "분식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~7,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "새콤달콤매콤",
+      "탱글쫄깃면",
+      "양배추콩나물",
+      "만두단짝"
+    ]
+  },
+  {
+    "id": "menu_240",
+    "name": "추억의옛날도시락",
+    "category": "분식",
+    "subCategory": "밥",
+    "mealType": [
+      "분식",
+      "외식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "분홍소시지",
+      "볶음김치",
+      "계란후라이",
+      "흔들어먹기"
+    ]
+  },
+  {
+    "id": "menu_241",
+    "name": "소떡소떡",
+    "category": "분식",
+    "subCategory": "간식",
+    "mealType": [
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "3,500~4,500원",
+    "cookingTime": 8,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "소시지와떡의조화",
+      "양념치킨소스",
+      "휴게소원탑",
+      "쫀득바삭"
+    ]
+  },
+  {
+    "id": "menu_242",
+    "name": "치즈핫도그",
+    "category": "분식",
+    "subCategory": "간식",
+    "mealType": [
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "3,000~4,500원",
+    "cookingTime": 6,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "모짜렐라치즈줄줄",
+      "설탕케첩머스타드",
+      "명랑핫도그",
+      "바삭쫀득"
+    ]
+  },
+  {
+    "id": "menu_243",
+    "name": "호떡(꿀/씨앗)",
+    "category": "분식",
+    "subCategory": "간식",
+    "mealType": [
+      "혼밥",
+      "길거리"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "2,000~4,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "달콤한흑설탕꿀",
+      "고소한씨앗",
+      "바삭쫀득",
+      "겨울간식"
+    ]
+  },
+  {
+    "id": "menu_244",
+    "name": "후라이드치킨",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "16,000~20,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭바삭황금빛",
+      "치킨무필수",
+      "맥주친구",
+      "겉바속촉"
+    ]
+  },
+  {
+    "id": "menu_245",
+    "name": "양념치킨",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "17,000~21,000원",
+    "cookingTime": 25,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤매콤양념",
+      "땅콩분태",
+      "국민치킨",
+      "아이들최애"
+    ]
+  },
+  {
+    "id": "menu_246",
+    "name": "반반치킨(후라이드+양념)",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "17,000~21,000원",
+    "cookingTime": 25,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "결정장애해결",
+      "국민조합",
+      "치맥",
+      "푸짐한"
+    ]
+  },
+  {
+    "id": "menu_247",
+    "name": "간장마늘치킨",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~22,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "단짠단짠",
+      "마늘풍미",
+      "교촌스타일",
+      "중독성갑"
+    ]
+  },
+  {
+    "id": "menu_248",
+    "name": "고추바사삭치킨",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~22,000원",
+    "cookingTime": 25,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "오븐구이",
+      "매콤깔끔",
+      "마블링소스",
+      "야식베스트"
+    ]
+  },
+  {
+    "id": "menu_249",
+    "name": "뿌링클치킨",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~22,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "마법의치즈시즈닝",
+      "뿌링뿌링소스",
+      "달콤짭짤",
+      "MZ최애치킨"
+    ]
+  },
+  {
+    "id": "menu_250",
+    "name": "닭강정",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,000~14,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "식어도맛있는",
+      "바삭달콤",
+      "떡튀김",
+      "간편간식"
+    ]
+  },
+  {
+    "id": "menu_251",
+    "name": "숯불양념바베큐치킨",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~22,000원",
+    "cookingTime": 25,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "지코바스타일",
+      "치밥필수",
+      "숯불향",
+      "매콤달콤"
+    ]
+  },
+  {
+    "id": "menu_252",
+    "name": "어니언바베큐치킨",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,500~22,500원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "양파슬라이스듬뿍",
+      "화이트어니언소스",
+      "바삭치킨",
+      "느끼함잡는"
+    ]
+  },
+  {
+    "id": "menu_253",
+    "name": "허니버터치킨",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~22,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤한꿀과버터",
+      "단짠의정석",
+      "아이들최애",
+      "바삭한"
+    ]
+  },
+  {
+    "id": "menu_254",
+    "name": "빅맥/더블패티버거",
+    "category": "패스트푸드",
+    "subCategory": "버거",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,000~9,500원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "순소고기패티",
+      "특별한소스",
+      "감튀세트",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_255",
+    "name": "통새우와퍼/새우버거",
+    "category": "패스트푸드",
+    "subCategory": "버거",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~10,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "탱글한새우패티",
+      "타르타르소스",
+      "해물버거",
+      "인기메뉴"
+    ]
+  },
+  {
+    "id": "menu_256",
+    "name": "싸이버거/치킨버거",
+    "category": "패스트푸드",
+    "subCategory": "버거",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "두툼한닭다리살패티",
+      "양상추가득",
+      "가성비최강",
+      "국민버거"
+    ]
+  },
+  {
+    "id": "menu_257",
+    "name": "불고기버거",
+    "category": "패스트푸드",
+    "subCategory": "버거",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,000원",
+    "cookingTime": 6,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤한불고기소스",
+      "한국인입맛",
+      "추억의맛",
+      "간편식"
+    ]
+  },
+  {
+    "id": "menu_258",
+    "name": "베이컨체다치즈버거",
+    "category": "패스트푸드",
+    "subCategory": "버거",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭베이컨",
+      "진한체다치즈",
+      "소고기패티",
+      "정통미국맛"
+    ]
+  },
+  {
+    "id": "menu_259",
+    "name": "서브웨이이탈리안BMT",
+    "category": "패스트푸드",
+    "subCategory": "샌드위치",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~10,500원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "신선한야채커스텀",
+      "페퍼로니살라미",
+      "건강한한끼",
+      "다이어트"
+    ]
+  },
+  {
+    "id": "menu_260",
+    "name": "에그드랍/토스트",
+    "category": "패스트푸드",
+    "subCategory": "토스트",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~7,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "폭신폭신스크램블",
+      "달콤연유소스",
+      "버터식빵",
+      "아침점심"
+    ]
+  },
+  {
+    "id": "menu_261",
+    "name": "이삭토스트햄스페셜",
+    "category": "패스트푸드",
+    "subCategory": "토스트",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,000~5,500원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤한키위소스",
+      "양배추듬뿍",
+      "체다치즈",
+      "추억의맛"
+    ]
+  },
+  {
+    "id": "menu_262",
+    "name": "치킨부리또",
+    "category": "패스트푸드",
+    "subCategory": "멕시칸",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,000~9,500원",
+    "cookingTime": 8,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "또띠아에싼밥",
+      "닭가슴살야채",
+      "간편든든",
+      "헬시패스트푸드"
+    ]
+  },
+  {
+    "id": "menu_263",
+    "name": "치즈감자튀김/어니언링",
+    "category": "패스트푸드",
+    "subCategory": "사이드",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,000~6,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "치즈시즈닝",
+      "바삭한사이드",
+      "맥주간식",
+      "단짠"
+    ]
+  },
+  {
+    "id": "menu_264",
+    "name": "버팔로윙/봉",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~13,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤새콤미국식",
+      "셀러리스틱",
+      "맥주안주",
+      "손가락쪽쪽"
+    ]
+  },
+  {
+    "id": "menu_265",
+    "name": "불닭발",
+    "category": "한식",
+    "subCategory": "야식",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~22,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "스트레스해소",
+      "주먹밥계란찜단짝",
+      "매운맛극강",
+      "불맛가득"
+    ]
+  },
+  {
+    "id": "menu_266",
+    "name": "소고기쌀국수(포)",
+    "category": "기타",
+    "subCategory": "베트남",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "진한소고기육수",
+      "숙주듬뿍",
+      "해장추천",
+      "칠리해선장"
+    ]
+  },
+  {
+    "id": "menu_267",
+    "name": "분짜",
+    "category": "기타",
+    "subCategory": "베트남",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "11,000~14,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "새콤달콤느억맘",
+      "숯불돼지고기",
+      "신선한야채",
+      "짜조"
+    ]
+  },
+  {
+    "id": "menu_268",
+    "name": "팟타이(새우볶음쌀국수)",
+    "category": "기타",
+    "subCategory": "태국",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "단짠타마린드소스",
+      "땅콩가루",
+      "레몬즙",
+      "태국대표요리"
+    ]
+  },
+  {
+    "id": "menu_269",
+    "name": "뿌팟퐁커리",
+    "category": "기타",
+    "subCategory": "태국",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "22,000~32,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "소프트크랩",
+      "부드러운옐로우커리",
+      "코코넛밀크",
+      "밥도둑"
+    ]
+  },
+  {
+    "id": "menu_270",
+    "name": "똠얌꿍",
+    "category": "기타",
+    "subCategory": "태국",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "14,000~20,000원",
+    "cookingTime": 18,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "새콤매콤세계3대스프",
+      "레몬그라스",
+      "탱글새우",
+      "이국적"
+    ]
+  },
+  {
+    "id": "menu_271",
+    "name": "나시고랭(인도네시아볶음밥)",
+    "category": "기타",
+    "subCategory": "동남아",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤매콤케찹마니스",
+      "계란후라이",
+      "새우칩",
+      "CNN1위음식"
+    ]
+  },
+  {
+    "id": "menu_272",
+    "name": "미고랭(인도네시아볶음면)",
+    "category": "기타",
+    "subCategory": "동남아",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "7,000~10,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "중독성강한소스",
+      "볶음면",
+      "간단식",
+      "동남아길거리"
+    ]
+  },
+  {
+    "id": "menu_273",
+    "name": "인도치킨마크니커리+난",
+    "category": "기타",
+    "subCategory": "인도",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~18,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "버터치킨커리",
+      "화덕에구운난",
+      "고소달콤",
+      "인도정통"
+    ]
+  },
+  {
+    "id": "menu_274",
+    "name": "탄두리치킨",
+    "category": "기타",
+    "subCategory": "인도",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "14,000~20,000원",
+    "cookingTime": 25,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "향신료요거트숙성",
+      "화덕구이",
+      "담백한닭요리",
+      "인도향"
+    ]
+  },
+  {
+    "id": "menu_275",
+    "name": "반미샌드위치",
+    "category": "기타",
+    "subCategory": "베트남",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,000~9,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭한쌀바게트",
+      "고수와피클",
+      "고기토핑",
+      "베트남길거리"
+    ]
+  },
+  {
+    "id": "menu_276",
+    "name": "야채월남쌈",
+    "category": "기타",
+    "subCategory": "베트남",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~25,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "라이스페이퍼",
+      "신선채소듬뿍",
+      "땅콩피쉬소스",
+      "다이어트식단"
+    ]
+  },
+  {
+    "id": "menu_277",
+    "name": "카파오무쌉(태국돼지고기덮밥)",
+    "category": "기타",
+    "subCategory": "태국",
+    "mealType": [
+      "외식",
+      "혼밥",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,500원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바질향가득",
+      "매콤한다진돼지고기",
+      "계란반숙",
+      "태국패스트푸드"
+    ]
+  },
+  {
+    "id": "menu_278",
+    "name": "하와이안포케볼",
+    "category": "기타",
+    "subCategory": "하와이",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,000~15,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "참치연어회",
+      "현미밥채소",
+      "스리라차마요",
+      "건강식단"
+    ]
+  },
+  {
+    "id": "menu_279",
+    "name": "케밥(치킨/양고기)",
+    "category": "기타",
+    "subCategory": "터키",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,000~9,500원",
+    "cookingTime": 6,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "피타브레드",
+      "풍성한야채고기",
+      "요거트소스",
+      "터키스트리트"
+    ]
+  },
+  {
+    "id": "menu_280",
+    "name": "양지차돌쌀국수",
+    "category": "기타",
+    "subCategory": "베트남",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "깊은육수",
+      "부드러운고기",
+      "양파절임",
+      "깔끔한속풀이"
+    ]
+  },
+  {
+    "id": "menu_281",
+    "name": "매운해물쌀국수",
+    "category": "기타",
+    "subCategory": "베트남",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "얼큰칼칼육수",
+      "해물숙주",
+      "해장쌀국수",
+      "속풀이"
+    ]
+  },
+  {
+    "id": "menu_282",
+    "name": "팟씨유(간장볶음쌀국수)",
+    "category": "기타",
+    "subCategory": "태국",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤짭조름간장",
+      "넓은쌀국수면",
+      "청경채돼지고기",
+      "태국대중음식"
+    ]
+  },
+  {
+    "id": "menu_283",
+    "name": "파인애플볶음밥",
+    "category": "기타",
+    "subCategory": "동남아",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "달콤한파인애플",
+      "탱글새우캐슈넛",
+      "이국적풍미",
+      "아이추천"
+    ]
+  },
+  {
+    "id": "menu_284",
+    "name": "그린커리(닭고기/야채)",
+    "category": "기타",
+    "subCategory": "태국",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~16,000원",
+    "cookingTime": 18,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "코코넛밀크",
+      "향긋한그린칠리",
+      "가지닭고기",
+      "태국정통"
+    ]
+  },
+  {
+    "id": "menu_285",
+    "name": "쉬림프에그포케",
+    "category": "기타",
+    "subCategory": "하와이",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,500~14,500원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "탱글새우",
+      "반숙계란",
+      "스리라차마요",
+      "단백질식단"
+    ]
+  },
+  {
+    "id": "menu_286",
+    "name": "고추장불고기",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "외식",
+      "배달",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤달콤",
+      "제육볶음",
+      "상추쌈",
+      "불맛"
+    ]
+  },
+  {
+    "id": "menu_287",
+    "name": "간장돼지불고기",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "집밥",
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "단짠간장",
+      "파채",
+      "아이반찬",
+      "가정식"
+    ]
+  },
+  {
+    "id": "menu_288",
+    "name": "오징어삼겹살두루치기",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,000원",
+    "cookingTime": 18,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤쫄깃",
+      "김치두루치기",
+      "밥비벼먹기",
+      "술안주"
+    ]
+  },
+  {
+    "id": "menu_289",
+    "name": "묵은지고등어조림",
+    "category": "한식",
+    "subCategory": "조림",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 25,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "새콤칼칼묵은지",
+      "생선조림",
+      "밥도둑",
+      "깊은맛"
+    ]
+  },
+  {
+    "id": "menu_290",
+    "name": "도루묵찌개",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~16,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "알이가득",
+      "칼칼한국물",
+      "겨울별미",
+      "강원도음식"
+    ]
+  },
+  {
+    "id": "menu_291",
+    "name": "굴국밥",
+    "category": "한식",
+    "subCategory": "국밥",
+    "mealType": [
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "바다의우유",
+      "시원한미역",
+      "뚝배기",
+      "해장"
+    ]
+  },
+  {
+    "id": "menu_292",
+    "name": "매생이굴국",
+    "category": "한식",
+    "subCategory": "국",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "부드러운매생이",
+      "통영생굴",
+      "뜨끈한",
+      "속편한"
+    ]
+  },
+  {
+    "id": "menu_293",
+    "name": "소고기배추된장국",
+    "category": "한식",
+    "subCategory": "국",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "달큰한알배추",
+      "소고기",
+      "구수한된장",
+      "집밥"
+    ]
+  },
+  {
+    "id": "menu_294",
+    "name": "콩나물비빔밥",
+    "category": "한식",
+    "subCategory": "비빔밥",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "아삭한콩나물",
+      "달래양념장",
+      "고소한참기름",
+      "가성비"
+    ]
+  },
+  {
+    "id": "menu_295",
+    "name": "무생채비빔밥",
+    "category": "한식",
+    "subCategory": "비빔밥",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 8,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "아삭새콤무생채",
+      "계란후라이",
+      "고추장참기름",
+      "초간단"
+    ]
+  },
+  {
+    "id": "menu_296",
+    "name": "우삼겹된장술밥",
+    "category": "한식",
+    "subCategory": "국밥",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "고깃집된장밥",
+      "차돌박이",
+      "뜨끈한국물",
+      "술안주"
+    ]
+  },
+  {
+    "id": "menu_297",
+    "name": "얼큰김치어묵우동",
+    "category": "한식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "칼칼신김치",
+      "쫄깃우동",
+      "어묵꼬치",
+      "투다리감성"
+    ]
+  },
+  {
+    "id": "menu_298",
+    "name": "비빔만두국수",
+    "category": "한식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "새콤매콤양념",
+      "튀김만두",
+      "쫄깃소면",
+      "입맛돋우는"
+    ]
+  },
+  {
+    "id": "menu_299",
+    "name": "들기름막국수",
+    "category": "한식",
+    "subCategory": "국수",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "고소한들기름",
+      "김가루깨폭탄",
+      "메밀향",
+      "감칠맛"
+    ]
+  },
+  {
+    "id": "menu_300",
+    "name": "비빔막국수",
+    "category": "한식",
+    "subCategory": "국수",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "새콤달콤메밀면",
+      "육수한컵",
+      "수육세트",
+      "강원도별미"
+    ]
+  },
+  {
+    "id": "menu_301",
+    "name": "동치미막국수",
+    "category": "한식",
+    "subCategory": "국수",
+    "mealType": [
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "살얼음동치미",
+      "속이뻥뚫리는",
+      "시원한여름",
+      "깔끔한"
+    ]
+  },
+  {
+    "id": "menu_302",
+    "name": "감자수제비",
+    "category": "한식",
+    "subCategory": "탕",
+    "mealType": [
+      "혼밥",
+      "집밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "포슬한감자",
+      "멸치육수",
+      "쫄깃반죽",
+      "비오는날"
+    ]
+  },
+  {
+    "id": "menu_303",
+    "name": "김치만둣국",
+    "category": "한식",
+    "subCategory": "만두",
+    "mealType": [
+      "혼밥",
+      "집밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,500원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "칼칼김치만두",
+      "사골육수",
+      "김가루계란지단",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_304",
+    "name": "고기떡만둣국",
+    "category": "한식",
+    "subCategory": "만두",
+    "mealType": [
+      "혼밥",
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~9,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "진한사골육수",
+      "쫀득한떡국떡",
+      "고기만두",
+      "새해음식"
+    ]
+  },
+  {
+    "id": "menu_305",
+    "name": "소고기장조림버터밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,000원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "짭쪼름장조림",
+      "고소한버터",
+      "계란노른자",
+      "아이입맛"
+    ]
+  },
+  {
+    "id": "menu_306",
+    "name": "스팸김치짜글이",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,000~8,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "자작한국물",
+      "스팸감자",
+      "밥비벼먹기",
+      "자취생필살기"
+    ]
+  },
+  {
+    "id": "menu_307",
+    "name": "돼지고기고추장짜글이",
+    "category": "한식",
+    "subCategory": "찌개",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~9,500원",
+    "cookingTime": 18,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "얼큰진한맛",
+      "돼지고기호박",
+      "상추쌈비빔밥",
+      "밥도둑"
+    ]
+  },
+  {
+    "id": "menu_308",
+    "name": "오징어숙회초장",
+    "category": "한식",
+    "subCategory": "해물",
+    "mealType": [
+      "집밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~13,000원",
+    "cookingTime": 8,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "야들야들숙회",
+      "새콤매콤초장",
+      "미나리",
+      "가벼운안주"
+    ]
+  },
+  {
+    "id": "menu_309",
+    "name": "문어숙회",
+    "category": "한식",
+    "subCategory": "해물",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~25,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "쫄깃탱탱",
+      "참기름소금장",
+      "고급안주",
+      "타우린보양"
+    ]
+  },
+  {
+    "id": "menu_310",
+    "name": "광어/우럭회덮밥",
+    "category": "한식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,000~15,000원",
+    "cookingTime": 8,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "신선한활어회",
+      "아삭채소",
+      "초고추장",
+      "바다맛"
+    ]
+  },
+  {
+    "id": "menu_311",
+    "name": "물회",
+    "category": "한식",
+    "subCategory": "해물",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~18,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "살얼음초장육수",
+      "신선한생선회",
+      "소면사리",
+      "여름대표별미"
+    ]
+  },
+  {
+    "id": "menu_312",
+    "name": "멍게비빔밥",
+    "category": "한식",
+    "subCategory": "비빔밥",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,000~14,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "향긋한바다향",
+      "신선한생멍게",
+      "김가루참기름",
+      "미식가추천"
+    ]
+  },
+  {
+    "id": "menu_313",
+    "name": "조개구이/조개찜",
+    "category": "한식",
+    "subCategory": "해물",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "25,000~45,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "가리비키조개",
+      "치즈초장",
+      "바닷가감성",
+      "푸짐한"
+    ]
+  },
+  {
+    "id": "menu_314",
+    "name": "소곱창구이",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "18,000~28,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "고소한곱가득",
+      "부추무침",
+      "양파절임",
+      "볶음밥필수"
+    ]
+  },
+  {
+    "id": "menu_315",
+    "name": "소대창구이",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "18,000~28,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "기름지고녹진한",
+      "와사비간장",
+      "불판구이",
+      "입에서녹는"
+    ]
+  },
+  {
+    "id": "menu_316",
+    "name": "돼지막창구이",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~16,000원",
+    "cookingTime": 20,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "겉바속쫄",
+      "특제막장",
+      "대구명물",
+      "소주안주"
+    ]
+  },
+  {
+    "id": "menu_317",
+    "name": "야채곱창볶음",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "배달",
+      "외식",
+      "혼밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~13,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "당면양배추",
+      "매콤달콤들깨",
+      "동대문스타일",
+      "야식베스트"
+    ]
+  },
+  {
+    "id": "menu_318",
+    "name": "순대곱창볶음",
+    "category": "한식",
+    "subCategory": "볶음",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~14,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "쫄깃순대곱창",
+      "깻잎향가득",
+      "매콤안주",
+      "볶음밥"
+    ]
+  },
+  {
+    "id": "menu_319",
+    "name": "닭똥집(닭모래집)소금구이",
+    "category": "한식",
+    "subCategory": "구이",
+    "mealType": [
+      "외식",
+      "집밥"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~13,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "오독오독식감",
+      "통마늘참기름",
+      "포장마차안주",
+      "가벼운한잔"
+    ]
+  },
+  {
+    "id": "menu_320",
+    "name": "오돌뼈주먹밥",
+    "category": "한식",
+    "subCategory": "야식",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "12,000~16,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "오독오독매운맛",
+      "날치알김가루밥",
+      "스트레스해소",
+      "불맛"
+    ]
+  },
+  {
+    "id": "menu_321",
+    "name": "매운무뼈닭발",
+    "category": "한식",
+    "subCategory": "야식",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "15,000~20,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "먹기편한무뼈",
+      "직화불향",
+      "마요네즈콕",
+      "야식원탑"
+    ]
+  },
+  {
+    "id": "menu_322",
+    "name": "국물닭발",
+    "category": "한식",
+    "subCategory": "야식",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "16,000~22,000원",
+    "cookingTime": 20,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "콩나물듬뿍",
+      "얼큰자작한국물",
+      "주먹밥국물적셔먹기",
+      "한신포차감성"
+    ]
+  },
+  {
+    "id": "menu_323",
+    "name": "통닭다리삼계죽",
+    "category": "한식",
+    "subCategory": "죽",
+    "mealType": [
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "통닭다리하나",
+      "진한닭육수",
+      "영양만점",
+      "보양식"
+    ]
+  },
+  {
+    "id": "menu_324",
+    "name": "낙지김치죽",
+    "category": "한식",
+    "subCategory": "죽",
+    "mealType": [
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~12,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤칼칼",
+      "쫄깃한낙지",
+      "치즈추가필수",
+      "본죽베스트"
+    ]
+  },
+  {
+    "id": "menu_325",
+    "name": "참치야채죽",
+    "category": "한식",
+    "subCategory": "죽",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "고소한참치",
+      "다진야채",
+      "부드러운소화",
+      "국민죽"
+    ]
+  },
+  {
+    "id": "menu_326",
+    "name": "유산슬덮밥",
+    "category": "중식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "11,000~14,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "해삼죽순고기",
+      "부드러운굴소스",
+      "고급중식한그릇",
+      "자극없는"
+    ]
+  },
+  {
+    "id": "menu_327",
+    "name": "잡탕밥",
+    "category": "중식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "12,000~15,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "풍성한해산물",
+      "매콤감칠맛소스",
+      "중식스테디셀러",
+      "든든한"
+    ]
+  },
+  {
+    "id": "menu_328",
+    "name": "삼선간짜장",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "새우오징어듬뿍",
+      "아삭한양파",
+      "불맛춘장",
+      "프리미엄짜장"
+    ]
+  },
+  {
+    "id": "menu_329",
+    "name": "삼선짬뽕",
+    "category": "중식",
+    "subCategory": "면",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~12,500원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": true,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "전복낙지새우",
+      "얼큰불맛육수",
+      "푸짐한해물",
+      "짬뽕마니아"
+    ]
+  },
+  {
+    "id": "menu_330",
+    "name": "사천볶음밥",
+    "category": "중식",
+    "subCategory": "볶음밥",
+    "mealType": [
+      "혼밥",
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~10,000원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤화끈볶음밥",
+      "짜장소스",
+      "짬뽕국물",
+      "느끼함잡는"
+    ]
+  },
+  {
+    "id": "menu_331",
+    "name": "카이센동(해물덮밥)",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 4,
+    "estimatedPrice": "18,000~30,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "참치연어단새우관자",
+      "신선한해물",
+      "와사비간장",
+      "미식"
+    ]
+  },
+  {
+    "id": "menu_332",
+    "name": "치즈규동",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "체다모짜렐라",
+      "부드러운우삼겹",
+      "단짠단짠",
+      "고소한"
+    ]
+  },
+  {
+    "id": "menu_333",
+    "name": "카레카츠나베",
+    "category": "일식",
+    "subCategory": "나베",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,500~13,500원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "진한카레국물",
+      "촉촉한돈까스",
+      "계란노른자",
+      "밥도둑"
+    ]
+  },
+  {
+    "id": "menu_334",
+    "name": "냉라멘(히야시추카)",
+    "category": "일식",
+    "subCategory": "라멘",
+    "mealType": [
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": false,
+    "tags": [
+      "새콤달콤시원한육수",
+      "오이햄계란지단",
+      "여름별미",
+      "깔끔한"
+    ]
+  },
+  {
+    "id": "menu_335",
+    "name": "야키토리덮밥",
+    "category": "일식",
+    "subCategory": "덮밥",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~12,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "숯불닭꼬치",
+      "특제데리야끼",
+      "대파구이",
+      "이자카야점심"
+    ]
+  },
+  {
+    "id": "menu_336",
+    "name": "고르곤졸라크림뇨끼",
+    "category": "양식",
+    "subCategory": "양식",
+    "mealType": [
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "14,000~19,000원",
+    "cookingTime": 18,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "진한블루치즈",
+      "쫀득감자반죽",
+      "견과류토핑",
+      "와인페어링"
+    ]
+  },
+  {
+    "id": "menu_337",
+    "name": "쉬림프알리오올리오",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,500~13,000원",
+    "cookingTime": 12,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "탱글통새우",
+      "마늘올리브유",
+      "페페론치노",
+      "오일파스타"
+    ]
+  },
+  {
+    "id": "menu_338",
+    "name": "스테이크샐러드보울",
+    "category": "양식",
+    "subCategory": "샐러드",
+    "mealType": [
+      "외식",
+      "배달",
+      "혼밥"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "13,000~17,000원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "부드러운부채살",
+      "신선한채소",
+      "오리엔탈드레싱",
+      "고단백식단"
+    ]
+  },
+  {
+    "id": "menu_339",
+    "name": "볼로네제라구파스타",
+    "category": "양식",
+    "subCategory": "파스타",
+    "mealType": [
+      "집밥",
+      "혼밥",
+      "외식"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~13,500원",
+    "cookingTime": 18,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "오랜시간끓인다진고기소스",
+      "파마산치즈",
+      "깊은풍미",
+      "이탈리아맛"
+    ]
+  },
+  {
+    "id": "menu_340",
+    "name": "맥앤치즈",
+    "category": "양식",
+    "subCategory": "양식",
+    "mealType": [
+      "집밥",
+      "혼밥"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "꾸덕한체다치즈",
+      "마카로니",
+      "베이컨칩",
+      "미국소울푸드"
+    ]
+  },
+  {
+    "id": "menu_341",
+    "name": "치즈김치볶음밥도시락",
+    "category": "분식",
+    "subCategory": "밥",
+    "mealType": [
+      "혼밥",
+      "편의점",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 5,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "모짜렐라치즈",
+      "매콤김치볶음밥",
+      "소시지반찬",
+      "간편식"
+    ]
+  },
+  {
+    "id": "menu_342",
+    "name": "김말이떡볶이세트",
+    "category": "분식",
+    "subCategory": "분식",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,500~7,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭김말이",
+      "매콤달콤떡볶이",
+      "단짝세트",
+      "분식최애"
+    ]
+  },
+  {
+    "id": "menu_343",
+    "name": "어묵우동김밥세트",
+    "category": "분식",
+    "subCategory": "세트",
+    "mealType": [
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "6,500~8,500원",
+    "cookingTime": 10,
+    "spicy": false,
+    "soup": true,
+    "rice": true,
+    "noodle": true,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "따뜻한국물우동",
+      "원조야채김밥",
+      "가성비한끼",
+      "분식점정식"
+    ]
+  },
+  {
+    "id": "menu_344",
+    "name": "순대볶음",
+    "category": "분식",
+    "subCategory": "볶음",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~12,000원",
+    "cookingTime": 15,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "매콤달콤들깨",
+      "양배추깻잎",
+      "쫄깃순대",
+      "야식안주"
+    ]
+  },
+  {
+    "id": "menu_345",
+    "name": "납작만두무침",
+    "category": "분식",
+    "subCategory": "만두",
+    "mealType": [
+      "혼밥",
+      "분식"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~7,000원",
+    "cookingTime": 8,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": false,
+    "deliveryAvailable": false,
+    "tags": [
+      "고소한납작만두",
+      "새콤달콤초장야채",
+      "대구서문시장",
+      "별미간식"
+    ]
+  },
+  {
+    "id": "menu_346",
+    "name": "스노윙치즈치킨",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "18,000~22,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "눈꽃치즈가루",
+      "단짠의극치",
+      "네네치킨스타일",
+      "바삭한"
+    ]
+  },
+  {
+    "id": "menu_347",
+    "name": "마늘간장윙봉콤보",
+    "category": "치킨",
+    "subCategory": "치킨",
+    "mealType": [
+      "배달",
+      "외식"
+    ],
+    "priceLevel": 3,
+    "estimatedPrice": "19,000~23,000원",
+    "cookingTime": 25,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "날개와봉",
+      "달콤짭짤마늘간장",
+      "바삭쫀득",
+      "치맥베스트"
+    ]
+  },
+  {
+    "id": "menu_348",
+    "name": "더블불고기버거세트",
+    "category": "패스트푸드",
+    "subCategory": "버거",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "7,500~9,500원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "불고기패티두장",
+      "치즈한장",
+      "달콤소스",
+      "든든한한끼"
+    ]
+  },
+  {
+    "id": "menu_349",
+    "name": "크리스피텐더샐러드랩",
+    "category": "패스트푸드",
+    "subCategory": "랩",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,500~6,500원",
+    "cookingTime": 5,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭텐더",
+      "또띠아롤",
+      "신선양상추",
+      "간편식단"
+    ]
+  },
+  {
+    "id": "menu_350",
+    "name": "칠리치즈나초",
+    "category": "패스트푸드",
+    "subCategory": "스낵",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "5,000~8,000원",
+    "cookingTime": 8,
+    "spicy": true,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭나초칩",
+      "매콤비프칠리",
+      "따뜻한체다치즈소스",
+      "맥주/영화친구"
+    ]
+  },
+  {
+    "id": "menu_351",
+    "name": "팟카파오무쌉덮밥",
+    "category": "기타",
+    "subCategory": "태국",
+    "mealType": [
+      "외식",
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "9,000~11,500원",
+    "cookingTime": 10,
+    "spicy": true,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "홀리바질향",
+      "매콤다진돼지고기",
+      "튀기듯익힌계란",
+      "방콕스트리트"
+    ]
+  },
+  {
+    "id": "menu_352",
+    "name": "치킨카츠카레라이스",
+    "category": "일식",
+    "subCategory": "카레",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "8,500~11,000원",
+    "cookingTime": 15,
+    "spicy": false,
+    "soup": false,
+    "rice": true,
+    "noodle": false,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭치킨카츠",
+      "진한일본식카레",
+      "후리가케밥",
+      "직장인인기"
+    ]
+  },
+  {
+    "id": "menu_353",
+    "name": "야채춘권튀김",
+    "category": "기타",
+    "subCategory": "중식/아시안",
+    "mealType": [
+      "혼밥",
+      "분식",
+      "배달"
+    ],
+    "priceLevel": 1,
+    "estimatedPrice": "4,000~6,000원",
+    "cookingTime": 8,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": false,
+    "meat": false,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "바삭바삭롤",
+      "칠리소스",
+      "사이드메뉴",
+      "중독성있는"
+    ]
+  },
+  {
+    "id": "menu_354",
+    "name": "치킨팟타이",
+    "category": "기타",
+    "subCategory": "태국",
+    "mealType": [
+      "외식",
+      "혼밥",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,000~12,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": false,
+    "deliveryAvailable": true,
+    "tags": [
+      "부드러운닭안심",
+      "볶음쌀국수",
+      "땅콩가루레몬",
+      "태국대표"
+    ]
+  },
+  {
+    "id": "menu_355",
+    "name": "소고기분보싸오(비빔쌀국수)",
+    "category": "기타",
+    "subCategory": "베트남",
+    "mealType": [
+      "혼밥",
+      "외식",
+      "배달"
+    ],
+    "priceLevel": 2,
+    "estimatedPrice": "10,500~13,500원",
+    "cookingTime": 12,
+    "spicy": false,
+    "soup": false,
+    "rice": false,
+    "noodle": true,
+    "meat": true,
+    "healthy": true,
+    "deliveryAvailable": true,
+    "tags": [
+      "신선한채소",
+      "볶은소고기",
+      "느억맘소스비빔",
+      "다이어트면요리"
+    ]
+  }
+]
