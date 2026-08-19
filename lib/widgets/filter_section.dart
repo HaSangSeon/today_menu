@@ -15,6 +15,16 @@ class FilterSection extends StatelessWidget {
       builder: (context, filterProvider, child) {
         final criteria = filterProvider.criteria;
 
+        // 식사 방식에 따른 스마트 시간 라벨 계산
+        String timeLabel = '⏱️ 식사 / 준비 속도';
+        if (criteria.mealType == '집밥') {
+          timeLabel = '🍳 직접 요리 조리시간';
+        } else if (criteria.mealType == '배달') {
+          timeLabel = '🛵 배달 도착 소요시간';
+        } else if (criteria.mealType == '외식') {
+          timeLabel = '🚶 외식 / 식사 속도';
+        }
+
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -86,7 +96,17 @@ class FilterSection extends StatelessWidget {
             const Divider(height: 1),
             const SizedBox(height: 14),
 
-            // 2. 식사 방식 (어떻게 먹을까?)
+            // 2. 음식 종류 (최상단 배치!)
+            _buildFilterRow(
+              context: context,
+              title: '🍲 어떤 음식이 땡기나요? (카테고리)',
+              options: FilterCriteria.categoryOptions,
+              selected: criteria.category,
+              onSelected: (val) => filterProvider.updateCategory(val),
+            ),
+            const SizedBox(height: 14),
+
+            // 3. 식사 방식 (어떻게 먹을까?)
             _buildFilterRow(
               context: context,
               title: '🍽️ 식사 방식',
@@ -96,17 +116,17 @@ class FilterSection extends StatelessWidget {
             ),
             const SizedBox(height: 14),
 
-            // 3. 귀차니즘 / 조리시간
+            // 4. 소요시간 (식사 방식에 따라 스마트 라벨 적용)
             _buildFilterRow(
               context: context,
-              title: '⏱️ 조리시간 / 귀차니즘',
+              title: timeLabel,
               options: FilterCriteria.cookingTimeOptions,
               selected: criteria.cookingTime,
               onSelected: (val) => filterProvider.updateCookingTime(val),
             ),
             const SizedBox(height: 14),
 
-            // 4. 한 끼 예산 / 가격대
+            // 5. 한 끼 예산 / 가격대
             _buildFilterRow(
               context: context,
               title: '💰 한 끼 예산',
@@ -116,23 +136,13 @@ class FilterSection extends StatelessWidget {
             ),
             const SizedBox(height: 14),
 
-            // 5. 오늘 땡기는 느낌 / 성향
+            // 6. 오늘 땡기는 느낌 / 성향
             _buildFilterRow(
               context: context,
               title: '✨ 오늘 땡기는 느낌',
               options: FilterCriteria.preferenceOptions,
               selected: criteria.preference,
               onSelected: (val) => filterProvider.updatePreference(val),
-            ),
-            const SizedBox(height: 14),
-
-            // 6. 음식 종류
-            _buildFilterRow(
-              context: context,
-              title: '🍲 음식 카테고리',
-              options: FilterCriteria.categoryOptions,
-              selected: criteria.category,
-              onSelected: (val) => filterProvider.updateCategory(val),
             ),
           ],
         );
