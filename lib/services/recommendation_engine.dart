@@ -52,7 +52,7 @@ class RecommendationEngine {
       candidates = nonRecentCandidates;
     }
 
-    // 3차: 조건 완화 단계 (단, 매운맛/국물/건강식/프리셋 등 사용자의 핵심 성향은 절대 훼손하지 않음!)
+    // 3차: 조건 완화 단계 (단, 매운맛/국물/다이어트/프리셋 등 사용자의 핵심 성향은 절대 훼손하지 않음!)
     if (candidates.isEmpty) {
       // Step 3-1: 조리시간 완화 (카테고리/성향/가격/식사방식 유지)
       candidates = _applyFilter(
@@ -93,7 +93,7 @@ class RecommendationEngine {
           filter: filter,
           strictCookingTime: false,
           strictPrice: false,
-          strictPreference: true, // 핵심 성향(매운맛, 국물 등)은 끝까지 유지!
+          strictPreference: true, // 핵심 성향(매운맛, 다이어트, 국물 등)은 끝까지 유지!
           strictCategory: true,
           strictMealType: false,
         );
@@ -103,14 +103,14 @@ class RecommendationEngine {
         }
       }
 
-      // Step 3-4: 카테고리만 완화하고 성향(매운맛 등)은 계속 사수!
+      // Step 3-4: 카테고리만 완화하고 성향(매운맛, 다이어트 등)은 계속 사수!
       if (candidates.isEmpty) {
         candidates = _applyFilter(
           menus: allMenus,
           filter: filter,
           strictCookingTime: false,
           strictPrice: false,
-          strictPreference: true, // 매운맛/국물 등 성향 끝까지 사수!
+          strictPreference: true, // 성향 끝까지 사수!
           strictCategory: false,
           strictMealType: false,
         );
@@ -120,7 +120,7 @@ class RecommendationEngine {
         }
       }
 
-      // Step 3-5: 최후의 안전장치 (성향마저 없는 완전 디폴트 상태일 때)
+      // Step 3-5: 최후의 안전장치
       if (candidates.isEmpty) {
         candidates = allMenus;
         isRelaxed = true;
@@ -157,9 +157,12 @@ class RecommendationEngine {
     required bool strictCategory,
     required bool strictMealType,
   }) {
-    final isSpicyPreset = filter.quickPreset == 'spicy' || filter.preference == '매운 음식';
-    final isHangoverPreset = filter.quickPreset == 'hangover' || filter.preference == '국물';
-    final isDietPreset = filter.quickPreset == 'diet' || filter.preference == '건강식';
+    final isSpicyPreset =
+        filter.quickPreset == 'spicy' || filter.preference == '매운 음식';
+    final isHangoverPreset =
+        filter.quickPreset == 'hangover' || filter.preference == '뜨끈한 국물' || filter.preference == '국물';
+    final isDietPreset =
+        filter.quickPreset == 'diet' || filter.preference == '건강식' || filter.category == '샐러드';
     final isLazyPreset = filter.quickPreset == 'lazy';
     final isBudgetPreset = filter.quickPreset == 'budget';
 
@@ -177,19 +180,51 @@ class RecommendationEngine {
             menu.subCategory.contains('찌개') ||
             menu.subCategory.contains('탕') ||
             menu.subCategory.contains('국') ||
-            menu.tags.any((t) => t.contains('해장') || t.contains('얼큰') || t.contains('국물'));
+            menu.tags.any((t) =>
+                t.contains('해장') ||
+                t.contains('얼큰') ||
+                t.contains('국물') ||
+                t.contains('뚝배기'));
         if (!isHangoverDish) {
           return false;
         }
       }
 
-      // 3. 다이어트/건강식 조건 검증
+      // 3. 다이어트 / 클린식단 조건 검증 (엄격한 다이어트 식단만 필터링)
       if (strictPreference && isDietPreset) {
-        final isDietDish = menu.healthy ||
-            menu.subCategory.contains('샐러드') ||
-            menu.name.contains('샐러드') ||
-            menu.tags.any((t) => t.contains('다이어트') || t.contains('포케') || t.contains('단백질') || t.contains('건강'));
-        if (!isDietDish) {
+        final name = menu.name;
+        final sub = menu.subCategory;
+        final tagsStr = menu.tags.join(' ');
+
+        // 밀가루 면, 고칼로리 튀김, 찌개, 정크푸드는 다이어트에서 완벽 배제
+        final isHeavyFood = anyKeyword(name, [
+          '칼국수', '라면', '짜장', '짬뽕', '튀김', '돈까스', '치킨', '피자', '버거',
+          '핫도그', '떡볶이', '순대', '부대찌개', '곱창', '대창', '막창', '마라탕'
+        ]);
+        if (isHeavyFood) return false;
+
+        final isCleanDietDish = menu.healthy ||
+            name.contains('샐러드') ||
+            sub.contains('샐러드') ||
+            name.contains('포케') ||
+            name.contains('닭가슴살') ||
+            name.contains('월남쌈') ||
+            name.contains('단백질') ||
+            name.contains('곤드레') ||
+            name.contains('새싹비빔밥') ||
+            name.contains('쌈밥') ||
+            name.contains('훈제오리') ||
+            name.contains('두부') ||
+            name.contains('샤브샤브') ||
+            name.contains('메밀소바') ||
+            name.contains('숙회') ||
+            name.contains('회덮밥') ||
+            tagsStr.contains('다이어트') ||
+            tagsStr.contains('샐러드') ||
+            tagsStr.contains('포케') ||
+            tagsStr.contains('클린');
+
+        if (!isCleanDietDish) {
           return false;
         }
       }
@@ -302,23 +337,32 @@ class RecommendationEngine {
       if (strictPreference && filter.preference != '아무거나') {
         final pref = filter.preference;
         if (pref == '든든하게') {
-          if (menu.priceLevel < 2 && menu.cookingTime < 10 && !menu.meat && !menu.rice) {
+          if (menu.priceLevel < 2 &&
+              menu.cookingTime < 10 &&
+              !menu.meat &&
+              !menu.rice) {
             return false;
           }
         } else if (pref == '가볍게') {
-          if (menu.priceLevel > 2 || menu.cookingTime > 20 || menu.tags.contains('푸짐한')) {
+          if (menu.priceLevel > 2 ||
+              menu.cookingTime > 20 ||
+              menu.tags.contains('푸짐한')) {
             return false;
           }
-        } else if (pref == '면') {
+        } else if (pref == '면' || pref == '면치기') {
           if (!menu.noodle) return false;
-        } else if (pref == '밥') {
+        } else if (pref == '밥' || pref == '밥심') {
           if (!menu.rice) return false;
-        } else if (pref == '고기') {
+        } else if (pref == '고기' || pref == '고기/단백질') {
           if (!menu.meat) return false;
         }
       }
 
       return true;
     }).toList();
+  }
+
+  bool anyKeyword(String source, List<String> keywords) {
+    return keywords.any((k) => source.contains(k));
   }
 }
