@@ -5,7 +5,6 @@ import '../providers/filter_provider.dart';
 import '../providers/menu_provider.dart';
 import '../providers/theme_provider.dart';
 import '../widgets/ad_banner_widget.dart';
-import '../widgets/rewarded_ad_dialog.dart';
 import 'recommendation_screen.dart';
 
 class DecisionScreen extends StatelessWidget {
@@ -206,12 +205,9 @@ class DecisionScreen extends StatelessWidget {
                             onPressed: () {
                               final filterProvider =
                                   context.read<FilterProvider>();
-                              if (!menuProvider.hasQuota) {
-                                RewardedAdDialog.show(context);
-                                return;
-                              }
                               final success = menuProvider.recommendMenu(
                                 filterProvider.criteria,
+                                consumeQuota: false,
                               );
                               if (success) {
                                 Navigator.of(context).pushReplacement(

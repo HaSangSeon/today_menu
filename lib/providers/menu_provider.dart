@@ -47,18 +47,21 @@ class MenuProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  /// 새로운 메뉴 추천 실행
-  bool recommendMenu(FilterCriteria filter) {
+  /// 메뉴 추천 실행
+  /// [consumeQuota]: true이면 메인에서 최초 추천 시 횟수 1회 차감, false이면 '다시 골라줘' 시 횟수 차감 없이 추천
+  bool recommendMenu(FilterCriteria filter, {bool consumeQuota = true}) {
     _userQuota = _userQuota.checkAndResetDaily();
 
-    if (!hasQuota) {
-      notifyListeners();
-      return false; // Quota exhausted
-    }
+    if (consumeQuota) {
+      if (!hasQuota) {
+        notifyListeners();
+        return false; // Quota exhausted
+      }
 
-    // 추천 횟수 1회 차감
-    _userQuota = _userQuota.decrement();
-    storageRepository.saveUserQuota(_userQuota);
+      // 추천 횟수 1회 차감
+      _userQuota = _userQuota.decrement();
+      storageRepository.saveUserQuota(_userQuota);
+    }
 
     // 추천 알고리즘 실행
     final result = _engine.recommend(

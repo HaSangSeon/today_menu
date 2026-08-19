@@ -7,7 +7,6 @@ import '../providers/theme_provider.dart';
 import '../widgets/ad_banner_widget.dart';
 import '../widgets/menu_card.dart';
 import '../widgets/quota_badge.dart';
-import '../widgets/rewarded_ad_dialog.dart';
 import 'decision_screen.dart';
 
 class RecommendationScreen extends StatefulWidget {
@@ -49,12 +48,10 @@ class _RecommendationScreenState extends State<RecommendationScreen>
     final menuProvider = context.read<MenuProvider>();
     final filterProvider = context.read<FilterProvider>();
 
-    if (!menuProvider.hasQuota) {
-      RewardedAdDialog.show(context);
-      return;
-    }
-
-    final success = menuProvider.recommendMenu(filterProvider.criteria);
+    final success = menuProvider.recommendMenu(
+      filterProvider.criteria,
+      consumeQuota: false,
+    );
     if (success) {
       _animController.reset();
       _animController.forward();
