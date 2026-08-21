@@ -21,7 +21,7 @@ class RecommendationEngine {
 
   RecommendationEngine([Random? random]) : _random = random ?? Random();
 
-  /// 4단계 추천 파이프라인
+  /// 4단계 추천 파이프라인 (사용자 선택 옵션 100% 보장)
   RecommendationResult? recommend({
     required List<MenuItem> allMenus,
     required FilterCriteria filter,
@@ -43,7 +43,7 @@ class RecommendationEngine {
     bool isRelaxed = false;
     String? relaxationMessage;
 
-    // 2차: 최근 5개 추천 제외
+    // 2차: 최근 추천 목록 제외 (후보가 충분할 때만)
     List<MenuItem> nonRecentCandidates = candidates
         .where((menu) => !recentExcludedIds.contains(menu.id))
         .toList();
@@ -52,9 +52,10 @@ class RecommendationEngine {
       candidates = nonRecentCandidates;
     }
 
-    // 3차: 조건 완화 단계 (단, 매운맛/국물/다이어트/프리셋 등 사용자의 핵심 성향은 절대 훼손하지 않음!)
+    // 3차: 조건 완화 단계
+    // 핵심 원칙: 카테고리(분식/한식 등)와 핵심 성향(매운맛/국물/다이어트 등)은 어떠한 경우에도 절대 훼손하지 않음!
     if (candidates.isEmpty) {
-      // Step 3-1: 조리시간 완화 (카테고리/성향/가격/식사방식 유지)
+      // Step 3-1: 조리시간만 완화 (카테고리/성향/가격/식사방식 100% 유지)
       candidates = _applyFilter(
         menus: allMenus,
         filter: filter,
@@ -69,7 +70,7 @@ class RecommendationEngine {
         relaxationMessage = '조리시간 조건을 유연하게 맞춰 추천했습니다.';
       }
 
-      // Step 3-2: 가격 및 조리시간 완화 (카테고리/성향/식사방식 유지)
+      // Step 3-2: 가격 및 조리시간 완화 (카테고리/성향/식사방식 100% 유지)
       if (candidates.isEmpty) {
         candidates = _applyFilter(
           menus: allMenus,
@@ -86,45 +87,60 @@ class RecommendationEngine {
         }
       }
 
-      // Step 3-3: 식사 형태 완화 (성향 및 카테고리는 유지)
+      // Step 3-3: 식사 방식 완화 (카테고리 및 핵심 성향 100% 유지)
       if (candidates.isEmpty) {
         candidates = _applyFilter(
           menus: allMenus,
           filter: filter,
           strictCookingTime: false,
           strictPrice: false,
-          strictPreference: true, // 핵심 성향(매운맛, 다이어트, 국물 등)은 끝까지 유지!
+          strictPreference: true,
           strictCategory: true,
           strictMealType: false,
         );
         if (candidates.isNotEmpty) {
           isRelaxed = true;
-          relaxationMessage = '선택하신 카테고리와 취향에 맞는 메뉴를 엄선했습니다.';
+          relaxationMessage = '선택하신 카테고리와 취향에 꼭 맞는 메뉴를 엄선했습니다.';
         }
       }
 
-      // Step 3-4: 카테고리만 완화하고 성향(매운맛, 다이어트 등)은 계속 사수!
-      if (candidates.isEmpty) {
+      // Step 3-4: 만약 카테고리가 '상관없음'인 경우에만 성향 중심 전체 카테고리 추출
+      if (candidates.isEmpty && filter.category == '상관없음') {
         candidates = _applyFilter(
           menus: allMenus,
           filter: filter,
           strictCookingTime: false,
           strictPrice: false,
-          strictPreference: true, // 성향 끝까지 사수!
+          strictPreference: true,
           strictCategory: false,
           strictMealType: false,
         );
         if (candidates.isNotEmpty) {
           isRelaxed = true;
-          relaxationMessage = '취향(맛/스타일)에 맞는 다른 카테고리 메뉴를 추천합니다.';
+          relaxationMessage = '취향(맛/스타일)에 맞는 맛있는 메뉴를 추천합니다.';
         }
       }
 
-      // Step 3-5: 최후의 안전장치
+      // Step 3-5: 만약 특정 성향에서 해당 카테고리 후보가 0개라면 카테고리 내 인기 메뉴 추출
+      if (candidates.isEmpty && filter.category != '상관없음') {
+        candidates = _applyFilter(
+          menus: allMenus,
+          filter: filter,
+          strictCookingTime: false,
+          strictPrice: false,
+          strictPreference: false,
+          strictCategory: true,
+          strictMealType: false,
+        );
+        if (candidates.isNotEmpty) {
+          isRelaxed = true;
+          relaxationMessage = '선택하신 [${filter.category}] 카테고리 인기 메뉴 중 추천합니다.';
+        }
+      }
+
+      // Step 3-6: 최후의 안전장치 (기본 필터일 때)
       if (candidates.isEmpty) {
         candidates = allMenus;
-        isRelaxed = true;
-        relaxationMessage = '조건에 맞는 메뉴를 찾지 못해 전체 인기 메뉴 중 추천합니다.';
       }
 
       // 최근 추천 목록 다시 제외 시도
@@ -136,7 +152,7 @@ class RecommendationEngine {
       }
     }
 
-    // 4차: 후보 중 1개 선택
+    // 4차: 최종 후보 중 1개 무작위 선택
     final selectedIndex = _random.nextInt(candidates.length);
     final chosenMenu = candidates[selectedIndex];
 
@@ -146,6 +162,98 @@ class RecommendationEngine {
       relaxationMessage: relaxationMessage,
       totalCandidates: candidates.length,
     );
+  }
+
+  /// 룰렛용 후보 메뉴 목록 추출 (선택된 옵션에 부합하는 메뉴 6개 엄선)
+  List<MenuItem> getRouletteCandidates({
+    required List<MenuItem> allMenus,
+    required FilterCriteria filter,
+    required List<String> recentExcludedIds,
+    int count = 6,
+  }) {
+    if (allMenus.isEmpty) return [];
+
+    // 1차: 엄격 필터링
+    List<MenuItem> candidates = _applyFilter(
+      menus: allMenus,
+      filter: filter,
+      strictCookingTime: true,
+      strictPrice: true,
+      strictPreference: true,
+      strictCategory: true,
+      strictMealType: true,
+    );
+
+    // 최근 제외 시도 (후보가 충분할 때)
+    final nonRecent =
+        candidates.where((m) => !recentExcludedIds.contains(m.id)).toList();
+    if (nonRecent.length >= count) {
+      candidates = nonRecent;
+    }
+
+    // 후보 수가 부족하면 조리시간/가격/식사방식 유연하게 완화 (카테고리/성향 100% 사수)
+    if (candidates.length < count) {
+      final relaxed = _applyFilter(
+        menus: allMenus,
+        filter: filter,
+        strictCookingTime: false,
+        strictPrice: false,
+        strictPreference: true, // 매운맛, 국물, 다이어트, 고기, 밥, 면 등은 절대 사수!
+        strictCategory: true, // 카테고리(분식/한식 등) 절대 사수!
+        strictMealType: false,
+      );
+      if (relaxed.isNotEmpty) {
+        candidates = relaxed;
+      }
+    }
+
+    // 만약 카테고리가 '상관없음'이고 후보가 6개 미만이면, 성향에 맞는 다른 카테고리 음식까지 수집
+    if (candidates.length < count && filter.category == '상관없음') {
+      final prefOnly = _applyFilter(
+        menus: allMenus,
+        filter: filter,
+        strictCookingTime: false,
+        strictPrice: false,
+        strictPreference: true,
+        strictCategory: false,
+        strictMealType: false,
+      );
+      if (prefOnly.isNotEmpty) {
+        candidates = prefOnly;
+      }
+    }
+
+    // 만약 카테고리가 특정되어 있고(예: 치킨), 그 안에서 성향(예: 매운맛) 만족 음식이 count 미만이면 카테고리 음식 우선 결합
+    if (candidates.length < count && filter.category != '상관없음') {
+      final catOnly = _applyFilter(
+        menus: allMenus,
+        filter: filter,
+        strictCookingTime: false,
+        strictPrice: false,
+        strictPreference: false,
+        strictCategory: true,
+        strictMealType: false,
+      );
+      if (catOnly.isNotEmpty) {
+        // 기존 성향 만족 메뉴를 우선 유지하면서 카테고리 메뉴로 보충
+        final combined = [...candidates];
+        for (final item in catOnly) {
+          if (!combined.any((c) => c.id == item.id)) {
+            combined.add(item);
+          }
+          if (combined.length >= count) break;
+        }
+        candidates = combined;
+      }
+    }
+
+    if (candidates.isEmpty) {
+      candidates = List<MenuItem>.from(allMenus);
+    }
+
+    final shuffled = List<MenuItem>.from(candidates)..shuffle(_random);
+    final targetCount = min(count, shuffled.length);
+    return shuffled.take(targetCount).toList();
   }
 
   List<MenuItem> _applyFilter({
@@ -159,12 +267,16 @@ class RecommendationEngine {
   }) {
     final isSpicyPreset =
         filter.quickPreset == 'spicy' || filter.preference == '매운 음식';
-    final isHangoverPreset =
-        filter.quickPreset == 'hangover' || filter.preference == '뜨끈한 국물' || filter.preference == '국물';
-    final isDietPreset =
-        filter.quickPreset == 'diet' || filter.preference == '건강식' || filter.category == '샐러드';
+    final isHangoverPreset = filter.quickPreset == 'hangover' ||
+        filter.preference == '뜨끈한 국물' ||
+        filter.preference == '국물';
+    final isDietPreset = filter.quickPreset == 'diet' ||
+        filter.preference == '건강식' ||
+        filter.category == '샐러드';
     final isLazyPreset = filter.quickPreset == 'lazy';
     final isBudgetPreset = filter.quickPreset == 'budget';
+    final isDeliveryPreset =
+        filter.quickPreset == 'delivery' || filter.mealType == '배달';
 
     return menus.where((menu) {
       // 1. 매운맛 조건 검증 (스파이시 프리셋 또는 매운 음식 선택 시 무조건 spicy == true 보장!)
@@ -174,57 +286,26 @@ class RecommendationEngine {
         }
       }
 
-      // 2. 국물/해장 조건 검증
+      // 2. 국물/해장 조건 검증 (100% 국물/찌개/탕/국밥 요리만 필터링)
       if (strictPreference && isHangoverPreset) {
         final isHangoverDish = menu.soup ||
             menu.subCategory.contains('찌개') ||
             menu.subCategory.contains('탕') ||
-            menu.subCategory.contains('국') ||
+            menu.subCategory.contains('국밥') ||
+            menu.subCategory.contains('전골') ||
+            (menu.subCategory == '국' && !menu.name.contains('국수')) ||
             menu.tags.any((t) =>
                 t.contains('해장') ||
                 t.contains('얼큰') ||
-                t.contains('국물') ||
                 t.contains('뚝배기'));
         if (!isHangoverDish) {
           return false;
         }
       }
 
-      // 3. 다이어트 / 클린식단 조건 검증 (엄격한 다이어트 식단만 필터링)
+      // 3. 다이어트 / 클린식단 조건 검증 (엄격한 healthy == true 식단만 필터링)
       if (strictPreference && isDietPreset) {
-        final name = menu.name;
-        final sub = menu.subCategory;
-        final tagsStr = menu.tags.join(' ');
-
-        // 밀가루 면, 고칼로리 튀김, 찌개, 정크푸드는 다이어트에서 완벽 배제
-        final isHeavyFood = anyKeyword(name, [
-          '칼국수', '라면', '짜장', '짬뽕', '튀김', '돈까스', '치킨', '피자', '버거',
-          '핫도그', '떡볶이', '순대', '부대찌개', '곱창', '대창', '막창', '마라탕'
-        ]);
-        if (isHeavyFood) return false;
-
-        final isCleanDietDish = menu.healthy ||
-            name.contains('샐러드') ||
-            sub.contains('샐러드') ||
-            name.contains('포케') ||
-            name.contains('닭가슴살') ||
-            name.contains('월남쌈') ||
-            name.contains('단백질') ||
-            name.contains('곤드레') ||
-            name.contains('새싹비빔밥') ||
-            name.contains('쌈밥') ||
-            name.contains('훈제오리') ||
-            name.contains('두부') ||
-            name.contains('샤브샤브') ||
-            name.contains('메밀소바') ||
-            name.contains('숙회') ||
-            name.contains('회덮밥') ||
-            tagsStr.contains('다이어트') ||
-            tagsStr.contains('샐러드') ||
-            tagsStr.contains('포케') ||
-            tagsStr.contains('클린');
-
-        if (!isCleanDietDish) {
+        if (!menu.healthy) {
           return false;
         }
       }
@@ -243,14 +324,23 @@ class RecommendationEngine {
         }
       }
 
-      // 6. 식사 형태 필터
-      if (strictMealType && filter.mealType != '상관없음') {
+      // 6. 배달 프리셋 및 배달 식사형태 필터
+      if (isDeliveryPreset && strictMealType) {
+        if (!menu.deliveryAvailable && !menu.mealType.contains('배달')) {
+          return false;
+        }
+      }
+
+      // 7. 일반 식사 형태 필터 (혼밥, 집밥, 외식)
+      if (strictMealType &&
+          filter.mealType != '상관없음' &&
+          filter.mealType != '배달') {
         if (!menu.mealType.contains(filter.mealType)) {
           return false;
         }
       }
 
-      // 7. 가격 필터
+      // 8. 가격 필터
       if (strictPrice && filter.price != '상관없음') {
         if (filter.price == '5천원 이하' && menu.priceLevel > 1) {
           return false;
@@ -261,7 +351,7 @@ class RecommendationEngine {
         }
       }
 
-      // 8. 음식 종류 / 카테고리 필터
+      // 9. 음식 종류 / 카테고리 필터
       if (strictCategory && filter.category != '상관없음') {
         final cat = filter.category;
         if (cat == '면') {
@@ -288,7 +378,9 @@ class RecommendationEngine {
           if (!menu.soup &&
               !menu.subCategory.contains('찌개') &&
               !menu.subCategory.contains('탕') &&
-              !menu.subCategory.contains('국') &&
+              !menu.subCategory.contains('국밥') &&
+              !menu.subCategory.contains('전골') &&
+              (menu.subCategory != '국' || menu.name.contains('국수')) &&
               !menu.subCategory.contains('스프')) {
             return false;
           }
@@ -322,7 +414,7 @@ class RecommendationEngine {
         }
       }
 
-      // 9. 조리시간 필터
+      // 10. 조리시간 필터
       if (strictCookingTime && filter.cookingTime != '상관없음') {
         if (filter.cookingTime == '10분 이하' && menu.cookingTime > 10) {
           return false;
@@ -333,7 +425,7 @@ class RecommendationEngine {
         }
       }
 
-      // 10. 기타 세부 성향 필터
+      // 11. 기타 세부 성향 필터
       if (strictPreference && filter.preference != '아무거나') {
         final pref = filter.preference;
         if (pref == '든든하게') {
@@ -366,3 +458,4 @@ class RecommendationEngine {
     return keywords.any((k) => source.contains(k));
   }
 }
+

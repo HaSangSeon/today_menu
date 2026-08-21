@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:today_menu/models/filter_criteria.dart';
 import 'package:today_menu/models/menu_item.dart';
+import 'package:today_menu/services/recommendation_engine.dart';
 
 void main() {
   group('MenuItem Model & menus.json Verification', () {
@@ -109,6 +111,69 @@ void main() {
       expect(createItem('칠리새우').emoji, '🦐');
       expect(createItem('낙지볶음덮밥').emoji, '🐙');
       expect(createItem('군만두').emoji, '🥟');
+    });
+
+    test('355개 전체 메뉴 대상 룰렛 및 추천의 100% 조건 일치 정밀 검증', () {
+      final file = File('assets/data/menus.json');
+      final jsonString = file.readAsStringSync();
+      final List<dynamic> decoded = json.decode(jsonString);
+      final allMenus = decoded.map((e) => MenuItem.fromJson(e as Map<String, dynamic>)).toList();
+      final engine = RecommendationEngine();
+
+      // 1. 매운맛 프리셋 선택 시 -> 추천 & 룰렛 후보 100% spicy == true
+      final spicyFilter = FilterCriteria.fromPreset('spicy');
+      for (int i = 0; i < 20; i++) {
+        final rec = engine.recommend(allMenus: allMenus, filter: spicyFilter, recentExcludedIds: []);
+        expect(rec, isNotNull);
+        expect(rec!.menuItem.spicy, isTrue, reason: '${rec.menuItem.name} must be spicy');
+
+        final candidates = engine.getRouletteCandidates(allMenus: allMenus, filter: spicyFilter, recentExcludedIds: [], count: 6);
+        expect(candidates.length, 6);
+        for (final m in candidates) {
+          expect(m.spicy, isTrue, reason: 'Roulette item ${m.name} must be spicy');
+        }
+      }
+
+      // 2. 분식 + 매운맛 선택 시 -> 100% 분식 카테고리 & spicy == true
+      const spicyBunsik = FilterCriteria(category: '분식', preference: '매운 음식');
+      for (int i = 0; i < 20; i++) {
+        final rec = engine.recommend(allMenus: allMenus, filter: spicyBunsik, recentExcludedIds: []);
+        expect(rec, isNotNull);
+        expect(rec!.menuItem.category, '분식');
+        expect(rec.menuItem.spicy, isTrue, reason: '${rec.menuItem.name} must be spicy bunsik');
+
+        final candidates = engine.getRouletteCandidates(allMenus: allMenus, filter: spicyBunsik, recentExcludedIds: [], count: 6);
+        for (final m in candidates) {
+          expect(m.category, '분식');
+          expect(m.spicy, isTrue, reason: 'Roulette item ${m.name} must be spicy bunsik');
+        }
+      }
+
+      // 3. 다이어트/클린식단 프리셋 선택 시 -> 100% healthy == true
+      final dietFilter = FilterCriteria.fromPreset('diet');
+      for (int i = 0; i < 10; i++) {
+        final rec = engine.recommend(allMenus: allMenus, filter: dietFilter, recentExcludedIds: []);
+        expect(rec, isNotNull);
+        expect(rec!.menuItem.healthy, isTrue, reason: '${rec.menuItem.name} must be diet/healthy');
+
+        final candidates = engine.getRouletteCandidates(allMenus: allMenus, filter: dietFilter, recentExcludedIds: [], count: 6);
+        for (final m in candidates) {
+          expect(m.healthy, isTrue, reason: '${m.name} must be diet/healthy');
+        }
+      }
+
+      // 4. 국물/해장 프리셋 선택 시 -> 100% soup/국물 요리
+      final hangoverFilter = FilterCriteria.fromPreset('hangover');
+      for (int i = 0; i < 10; i++) {
+        final rec = engine.recommend(allMenus: allMenus, filter: hangoverFilter, recentExcludedIds: []);
+        expect(rec, isNotNull);
+        expect(rec!.menuItem.soup, isTrue, reason: '${rec.menuItem.name} must be soup/stew');
+
+        final candidates = engine.getRouletteCandidates(allMenus: allMenus, filter: hangoverFilter, recentExcludedIds: [], count: 6);
+        for (final m in candidates) {
+          expect(m.soup, isTrue, reason: '${m.name} must be soup/stew');
+        }
+      }
     });
   });
 }

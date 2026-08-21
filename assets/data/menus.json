@@ -35,12 +35,13 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,500~11,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": true,
     "rice": false,
     "noodle": false,
@@ -62,7 +63,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,000~10,000원",
@@ -168,7 +170,8 @@
     "subCategory": "국밥",
     "mealType": [
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "6,500~8,500원",
@@ -204,7 +207,7 @@
     "soup": true,
     "rice": true,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": true,
     "tags": [
@@ -307,7 +310,7 @@
     "estimatedPrice": "13,000~28,000원",
     "cookingTime": 35,
     "spicy": true,
-    "soup": false,
+    "soup": true,
     "rice": false,
     "noodle": false,
     "meat": true,
@@ -327,7 +330,8 @@
     "subCategory": "찌개",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,500~10,000원",
@@ -380,7 +384,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,000~9,500원",
@@ -406,7 +411,8 @@
     "subCategory": "탕",
     "mealType": [
       "외식",
-      "혼밥"
+      "혼밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,500~10,000원",
@@ -700,7 +706,7 @@
     "priceLevel": 2,
     "estimatedPrice": "8,000~10,000원",
     "cookingTime": 15,
-    "spicy": true,
+    "spicy": false,
     "soup": true,
     "rice": false,
     "noodle": false,
@@ -748,7 +754,8 @@
     "mealType": [
       "혼밥",
       "집밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,000~10,000원",
@@ -930,7 +937,8 @@
     "subCategory": "전골",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "13,000~16,000원",
@@ -956,12 +964,13 @@
     "subCategory": "전골",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "13,000~17,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": true,
     "rice": false,
     "noodle": false,
@@ -1069,7 +1078,7 @@
     "priceLevel": 2,
     "estimatedPrice": "9,000~11,000원",
     "cookingTime": 15,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -1144,7 +1153,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "분식"
+      "분식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "5,000~7,500원",
@@ -1179,7 +1189,7 @@
     "soup": false,
     "rice": true,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": false,
     "tags": [
@@ -1353,7 +1363,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "분식"
+      "분식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "4,500~6,000원",
@@ -1441,7 +1452,7 @@
     "soup": false,
     "rice": true,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": true,
     "tags": [
@@ -1597,7 +1608,7 @@
     "priceLevel": 1,
     "estimatedPrice": "6,500~8,500원",
     "cookingTime": 8,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -1653,7 +1664,7 @@
     "soup": false,
     "rice": true,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": false,
     "tags": [
@@ -1675,7 +1686,7 @@
     "priceLevel": 3,
     "estimatedPrice": "14,000~18,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -1704,7 +1715,7 @@
     "soup": false,
     "rice": false,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": false,
     "tags": [
@@ -1752,7 +1763,7 @@
     "priceLevel": 3,
     "estimatedPrice": "15,000~18,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -1774,7 +1785,8 @@
     "mealType": [
       "혼밥",
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,000~11,000원",
@@ -1800,7 +1812,8 @@
     "subCategory": "조림",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "13,000~17,000원",
@@ -1826,7 +1839,8 @@
     "subCategory": "조림",
     "mealType": [
       "집밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,500~12,000원",
@@ -1909,7 +1923,7 @@
     "priceLevel": 3,
     "estimatedPrice": "13,000~16,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -1956,12 +1970,13 @@
     "subCategory": "구이",
     "mealType": [
       "집밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "11,000~15,000원",
     "cookingTime": 15,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -2013,7 +2028,7 @@
     "priceLevel": 3,
     "estimatedPrice": "14,000~18,000원",
     "cookingTime": 10,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -2095,7 +2110,7 @@
     "soup": false,
     "rice": false,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": false,
     "tags": [
@@ -2191,12 +2206,13 @@
     "subCategory": "조림",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 4,
     "estimatedPrice": "20,000~35,000원",
     "cookingTime": 40,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -2218,7 +2234,8 @@
     "mealType": [
       "외식",
       "집밥",
-      "혼밥"
+      "혼밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,000~10,500원",
@@ -2271,12 +2288,13 @@
     "mealType": [
       "혼밥",
       "분식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "5,000~7,000원",
     "cookingTime": 12,
-    "spicy": true,
+    "spicy": false,
     "soup": true,
     "rice": false,
     "noodle": true,
@@ -2330,7 +2348,7 @@
     "priceLevel": 2,
     "estimatedPrice": "8,000~10,000원",
     "cookingTime": 15,
-    "spicy": true,
+    "spicy": false,
     "soup": true,
     "rice": false,
     "noodle": true,
@@ -2351,7 +2369,8 @@
     "subCategory": "칼국수",
     "mealType": [
       "외식",
-      "혼밥"
+      "혼밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,500~10,000원",
@@ -2535,7 +2554,8 @@
     "subCategory": "무침",
     "mealType": [
       "집밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "15,000~20,000원",
@@ -2566,7 +2586,7 @@
     "priceLevel": 1,
     "estimatedPrice": "7,000~8,500원",
     "cookingTime": 10,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -2588,7 +2608,8 @@
     "mealType": [
       "혼밥",
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "7,500~9,000원",
@@ -2751,7 +2772,7 @@
     "priceLevel": 2,
     "estimatedPrice": "8,500~10,000원",
     "cookingTime": 15,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": true,
     "noodle": true,
@@ -2803,7 +2824,7 @@
     "priceLevel": 3,
     "estimatedPrice": "18,000~28,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -2824,7 +2845,8 @@
     "subCategory": "전",
     "mealType": [
       "외식",
-      "분식"
+      "분식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "6,000~9,000원",
@@ -2850,7 +2872,8 @@
     "subCategory": "칼국수",
     "mealType": [
       "외식",
-      "혼밥"
+      "혼밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,000~11,000원",
@@ -2934,7 +2957,7 @@
     "estimatedPrice": "5,500~7,500원",
     "cookingTime": 8,
     "spicy": true,
-    "soup": false,
+    "soup": true,
     "rice": false,
     "noodle": true,
     "meat": true,
@@ -2960,7 +2983,7 @@
     "estimatedPrice": "4,500~6,000원",
     "cookingTime": 7,
     "spicy": true,
-    "soup": false,
+    "soup": true,
     "rice": false,
     "noodle": true,
     "meat": false,
@@ -3016,7 +3039,7 @@
     "rice": false,
     "noodle": false,
     "meat": false,
-    "healthy": true,
+    "healthy": false,
     "deliveryAvailable": false,
     "tags": [
       "구운두부",
@@ -3065,7 +3088,7 @@
     "priceLevel": 2,
     "estimatedPrice": "8,000~9,500원",
     "cookingTime": 10,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": true,
@@ -3146,7 +3169,7 @@
     "priceLevel": 2,
     "estimatedPrice": "9,000~11,000원",
     "cookingTime": 12,
-    "spicy": false,
+    "spicy": true,
     "soup": true,
     "rice": false,
     "noodle": true,
@@ -3230,7 +3253,7 @@
     "soup": true,
     "rice": false,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": true,
     "tags": [
@@ -3256,7 +3279,7 @@
     "soup": true,
     "rice": false,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": true,
     "tags": [
@@ -3360,7 +3383,7 @@
     "priceLevel": 2,
     "estimatedPrice": "7,500~9,000원",
     "cookingTime": 10,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -3510,7 +3533,8 @@
     "category": "중식",
     "subCategory": "고기",
     "mealType": [
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 4,
     "estimatedPrice": "25,000~35,000원",
@@ -3669,7 +3693,8 @@
     "subCategory": "면",
     "mealType": [
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,000~11,500원",
@@ -3700,7 +3725,7 @@
     "priceLevel": 3,
     "estimatedPrice": "12,000~18,000원",
     "cookingTime": 15,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -3725,11 +3750,11 @@
     "priceLevel": 3,
     "estimatedPrice": "14,000~20,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": false,
     "tags": [
@@ -3745,7 +3770,8 @@
     "category": "중식",
     "subCategory": "해물",
     "mealType": [
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 4,
     "estimatedPrice": "25,000~35,000원",
@@ -3963,7 +3989,7 @@
     "priceLevel": 2,
     "estimatedPrice": "10,500~13,500원",
     "cookingTime": 15,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -4149,12 +4175,13 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,000~9,500원",
     "cookingTime": 12,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -4256,7 +4283,8 @@
     "subCategory": "라멘",
     "mealType": [
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,500~10,500원",
@@ -4309,7 +4337,8 @@
     "subCategory": "우동",
     "mealType": [
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,000~10,500원",
@@ -4336,7 +4365,8 @@
     "mealType": [
       "혼밥",
       "외식",
-      "분식"
+      "분식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "6,500~8,500원",
@@ -4363,7 +4393,8 @@
     "mealType": [
       "혼밥",
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,000~10,000원",
@@ -4390,7 +4421,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,500~11,000원",
@@ -4524,7 +4556,8 @@
     "subCategory": "덮밥",
     "mealType": [
       "외식",
-      "혼밥"
+      "혼밥",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "11,000~15,000원",
@@ -4655,7 +4688,8 @@
     "mealType": [
       "외식",
       "혼밥",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,500~12,500원",
@@ -4759,7 +4793,8 @@
     "subCategory": "우동",
     "mealType": [
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "7,500~9,500원",
@@ -4818,7 +4853,7 @@
     "priceLevel": 2,
     "estimatedPrice": "10,000~13,000원",
     "cookingTime": 15,
-    "spicy": true,
+    "spicy": false,
     "soup": true,
     "rice": false,
     "noodle": false,
@@ -4901,7 +4936,7 @@
     "priceLevel": 3,
     "estimatedPrice": "11,500~15,500원",
     "cookingTime": 18,
-    "spicy": false,
+    "spicy": true,
     "soup": false,
     "rice": false,
     "noodle": true,
@@ -4922,7 +4957,8 @@
     "subCategory": "파스타",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "10,000~14,000원",
@@ -4949,7 +4985,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "7,000~10,000원",
@@ -5004,7 +5041,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,500~13,000원",
@@ -5031,7 +5069,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "10,000~13,500원",
@@ -5057,7 +5096,8 @@
     "subCategory": "파스타",
     "mealType": [
       "집밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "10,500~14,000원",
@@ -5108,7 +5148,8 @@
     "category": "양식",
     "subCategory": "양식",
     "mealType": [
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "14,000~19,000원",
@@ -5187,7 +5228,8 @@
     "mealType": [
       "혼밥",
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,000~12,000원",
@@ -5297,7 +5339,7 @@
     "priceLevel": 2,
     "estimatedPrice": "13,000~19,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -5323,7 +5365,7 @@
     "priceLevel": 2,
     "estimatedPrice": "12,000~17,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -5397,7 +5439,8 @@
     "mealType": [
       "혼밥",
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,000~12,000원",
@@ -5423,7 +5466,8 @@
     "subCategory": "고기",
     "mealType": [
       "집밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "15,000~22,000원",
@@ -5449,7 +5493,8 @@
     "subCategory": "스페인식",
     "mealType": [
       "집밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "12,000~17,000원",
@@ -5481,7 +5526,7 @@
     "priceLevel": 2,
     "estimatedPrice": "9,000~13,000원",
     "cookingTime": 15,
-    "spicy": false,
+    "spicy": true,
     "soup": true,
     "rice": false,
     "noodle": false,
@@ -5502,7 +5547,8 @@
     "subCategory": "브런치",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "11,000~15,000원",
@@ -5512,7 +5558,7 @@
     "rice": false,
     "noodle": false,
     "meat": true,
-    "healthy": true,
+    "healthy": false,
     "deliveryAvailable": true,
     "tags": [
       "팬케이크",
@@ -5556,7 +5602,8 @@
     "mealType": [
       "혼밥",
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "5,500~8,000원",
@@ -5717,7 +5764,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "5,000~7,500원",
@@ -5878,12 +5926,13 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "분식"
+      "분식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "4,500~6,500원",
     "cookingTime": 12,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": true,
@@ -5991,7 +6040,7 @@
     "priceLevel": 1,
     "estimatedPrice": "4,000~5,000원",
     "cookingTime": 5,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -6039,7 +6088,8 @@
     "subCategory": "김밥",
     "mealType": [
       "혼밥",
-      "분식"
+      "분식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "4,500~5,500원",
@@ -6071,11 +6121,11 @@
     "priceLevel": 1,
     "estimatedPrice": "4,000~6,000원",
     "cookingTime": 5,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": true,
     "tags": [
@@ -6098,7 +6148,7 @@
     "priceLevel": 1,
     "estimatedPrice": "4,500~6,500원",
     "cookingTime": 10,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -6179,7 +6229,7 @@
     "estimatedPrice": "3,500~5,000원",
     "cookingTime": 5,
     "spicy": true,
-    "soup": false,
+    "soup": true,
     "rice": false,
     "noodle": true,
     "meat": false,
@@ -6199,13 +6249,14 @@
     "subCategory": "라면",
     "mealType": [
       "외식",
-      "혼밥"
+      "혼밥",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "6,000~8,000원",
     "cookingTime": 8,
     "spicy": true,
-    "soup": false,
+    "soup": true,
     "rice": false,
     "noodle": true,
     "meat": false,
@@ -6231,8 +6282,8 @@
     "priceLevel": 1,
     "estimatedPrice": "4,000~5,500원",
     "cookingTime": 6,
-    "spicy": true,
-    "soup": false,
+    "spicy": false,
+    "soup": true,
     "rice": false,
     "noodle": true,
     "meat": false,
@@ -6253,7 +6304,8 @@
     "mealType": [
       "분식",
       "외식",
-      "혼밥"
+      "혼밥",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "6,000~8,000원",
@@ -6338,7 +6390,7 @@
     "priceLevel": 1,
     "estimatedPrice": "5,500~7,000원",
     "cookingTime": 10,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -6390,7 +6442,7 @@
     "priceLevel": 1,
     "estimatedPrice": "3,000~4,500원",
     "cookingTime": 6,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -6786,7 +6838,7 @@
     "priceLevel": 1,
     "estimatedPrice": "5,000~7,000원",
     "cookingTime": 6,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -6844,14 +6896,14 @@
     "soup": false,
     "rice": false,
     "noodle": false,
-    "meat": false,
-    "healthy": true,
+    "meat": true,
+    "healthy": false,
     "deliveryAvailable": true,
     "tags": [
       "신선한야채커스텀",
       "페퍼로니살라미",
-      "건강한한끼",
-      "다이어트"
+      "든든한샌드위치",
+      "서브웨이"
     ]
   },
   {
@@ -6975,7 +7027,7 @@
     "priceLevel": 2,
     "estimatedPrice": "8,500~13,000원",
     "cookingTime": 15,
-    "spicy": false,
+    "spicy": true,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -7028,7 +7080,7 @@
     "priceLevel": 2,
     "estimatedPrice": "9,000~12,000원",
     "cookingTime": 10,
-    "spicy": true,
+    "spicy": false,
     "soup": true,
     "rice": false,
     "noodle": true,
@@ -7055,7 +7107,7 @@
     "priceLevel": 2,
     "estimatedPrice": "11,000~14,000원",
     "cookingTime": 12,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": true,
@@ -7128,12 +7180,13 @@
     "category": "기타",
     "subCategory": "태국",
     "mealType": [
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "14,000~20,000원",
     "cookingTime": 18,
-    "spicy": false,
+    "spicy": true,
     "soup": true,
     "rice": false,
     "noodle": false,
@@ -7182,7 +7235,8 @@
     "mealType": [
       "혼밥",
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "7,000~10,000원",
@@ -7287,7 +7341,8 @@
     "subCategory": "베트남",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "15,000~25,000원",
@@ -7314,12 +7369,13 @@
     "mealType": [
       "외식",
       "혼밥",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,000~11,500원",
     "cookingTime": 12,
-    "spicy": false,
+    "spicy": true,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -7507,7 +7563,7 @@
     "priceLevel": 3,
     "estimatedPrice": "12,000~16,000원",
     "cookingTime": 18,
-    "spicy": true,
+    "spicy": false,
     "soup": true,
     "rice": false,
     "noodle": false,
@@ -7583,12 +7639,13 @@
     "mealType": [
       "집밥",
       "외식",
-      "혼밥"
+      "혼밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,500~11,000원",
     "cookingTime": 15,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -7609,7 +7666,8 @@
     "subCategory": "볶음",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "10,000~13,000원",
@@ -7635,7 +7693,8 @@
     "subCategory": "조림",
     "mealType": [
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,500~12,000원",
@@ -7686,7 +7745,8 @@
     "subCategory": "국밥",
     "mealType": [
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,500~10,500원",
@@ -7843,7 +7903,8 @@
     "mealType": [
       "혼밥",
       "분식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "5,500~7,500원",
@@ -7896,7 +7957,8 @@
     "mealType": [
       "혼밥",
       "외식",
-      "집밥"
+      "집밥",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "8,500~10,500원",
@@ -8002,7 +8064,8 @@
     "mealType": [
       "혼밥",
       "집밥",
-      "분식"
+      "분식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "6,500~8,500원",
@@ -8029,7 +8092,8 @@
     "mealType": [
       "혼밥",
       "집밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "7,500~9,500원",
@@ -8090,7 +8154,7 @@
     "soup": true,
     "rice": false,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": false,
     "tags": [
@@ -8316,7 +8380,7 @@
     "priceLevel": 4,
     "estimatedPrice": "18,000~28,000원",
     "cookingTime": 20,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -8658,7 +8722,7 @@
     "priceLevel": 2,
     "estimatedPrice": "9,000~11,000원",
     "cookingTime": 10,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": true,
@@ -8844,7 +8908,7 @@
     "priceLevel": 2,
     "estimatedPrice": "9,000~12,000원",
     "cookingTime": 12,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -8864,7 +8928,8 @@
     "category": "양식",
     "subCategory": "양식",
     "mealType": [
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 3,
     "estimatedPrice": "14,000~19,000원",
@@ -8891,7 +8956,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "9,500~13,000원",
@@ -8945,7 +9011,8 @@
     "mealType": [
       "집밥",
       "혼밥",
-      "외식"
+      "외식",
+      "배달"
     ],
     "priceLevel": 2,
     "estimatedPrice": "10,000~13,500원",
@@ -9051,7 +9118,8 @@
     "subCategory": "세트",
     "mealType": [
       "혼밥",
-      "분식"
+      "분식",
+      "배달"
     ],
     "priceLevel": 1,
     "estimatedPrice": "6,500~8,500원",
@@ -9087,7 +9155,7 @@
     "soup": false,
     "rice": false,
     "noodle": false,
-    "meat": false,
+    "meat": true,
     "healthy": false,
     "deliveryAvailable": true,
     "tags": [
@@ -9188,7 +9256,7 @@
     "priceLevel": 2,
     "estimatedPrice": "7,500~9,500원",
     "cookingTime": 8,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,
@@ -9269,7 +9337,7 @@
     "priceLevel": 2,
     "estimatedPrice": "9,000~11,500원",
     "cookingTime": 10,
-    "spicy": false,
+    "spicy": true,
     "soup": false,
     "rice": true,
     "noodle": false,
@@ -9323,7 +9391,7 @@
     "priceLevel": 1,
     "estimatedPrice": "4,000~6,000원",
     "cookingTime": 8,
-    "spicy": true,
+    "spicy": false,
     "soup": false,
     "rice": false,
     "noodle": false,

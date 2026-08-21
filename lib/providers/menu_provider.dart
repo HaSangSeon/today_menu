@@ -93,6 +93,44 @@ class MenuProvider extends ChangeNotifier {
     return true;
   }
 
+  /// 룰렛용 후보 메뉴 목록 추출
+  List<MenuItem> getRouletteCandidates(FilterCriteria filter, {int count = 6}) {
+    return _engine.getRouletteCandidates(
+      allMenus: _allMenus,
+      filter: filter,
+      recentExcludedIds: _recentRecommendedIds,
+      count: count,
+    );
+  }
+
+  /// 룰렛에서 당첨된 메뉴를 현재 추천 결과로 설정 및 최근 목록 갱신
+  void setRouletteWinner(MenuItem winner) {
+    _currentRecommendation = RecommendationResult(
+      menuItem: winner,
+      isRelaxed: false,
+      totalCandidates: 6,
+    );
+    _recentRecommendedIds.add(winner.id);
+    if (_recentRecommendedIds.length > AppConfig.maxRecentExclusions) {
+      _recentRecommendedIds.removeAt(0);
+    }
+    storageRepository.saveRecentRecommendedIds(_recentRecommendedIds);
+    notifyListeners();
+  }
+
+  /// 룰렛 실행 시 추천 횟수 차감
+  bool consumeQuotaForRoulette() {
+    _userQuota = _userQuota.checkAndResetDaily();
+    if (!hasQuota) {
+      notifyListeners();
+      return false;
+    }
+    _userQuota = _userQuota.decrement();
+    storageRepository.saveUserQuota(_userQuota);
+    notifyListeners();
+    return true;
+  }
+
   /// 오늘의 메뉴 최종 확정
   Future<void> confirmCurrentMenu() async {
     if (_currentRecommendation == null) return;

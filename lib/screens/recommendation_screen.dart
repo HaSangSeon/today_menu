@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import '../config/app_theme.dart';
 import '../providers/filter_provider.dart';
 import '../providers/menu_provider.dart';
-import '../providers/theme_provider.dart';
 import '../widgets/ad_banner_widget.dart';
 import '../widgets/menu_card.dart';
 import '../widgets/quota_badge.dart';
@@ -74,7 +73,6 @@ class _RecommendationScreenState extends State<RecommendationScreen>
   @override
   Widget build(BuildContext context) {
     final menuProvider = context.watch<MenuProvider>();
-    final themeProvider = context.watch<ThemeProvider>();
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final recommendation = menuProvider.currentRecommendation;
 
@@ -89,19 +87,17 @@ class _RecommendationScreenState extends State<RecommendationScreen>
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('오늘의 메뉴 추천'),
-        actions: [
-          IconButton(
-            icon: Icon(
-              isDark ? Icons.light_mode_rounded : Icons.dark_mode_rounded,
-            ),
-            tooltip: isDark ? '라이트 모드로 전환' : '다크 모드로 전환',
-            onPressed: () {
-              themeProvider.toggleTheme();
-            },
+        toolbarHeight: 64,
+        shape: Border(
+          bottom: BorderSide(
+            color: isDark ? const Color(0xFF2C323D) : const Color(0xFFDDD5C8),
+            width: 1,
           ),
-          const QuotaBadge(),
-          const SizedBox(width: 12),
+        ),
+        title: const Text('오늘의 추천 메뉴'),
+        actions: const [
+          QuotaBadge(),
+          SizedBox(width: 16),
         ],
       ),
       body: SafeArea(

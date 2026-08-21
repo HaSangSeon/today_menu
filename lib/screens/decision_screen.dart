@@ -1,37 +1,58 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:share_plus/share_plus.dart';
 import '../config/app_theme.dart';
+import '../models/menu_item.dart';
 import '../providers/filter_provider.dart';
 import '../providers/menu_provider.dart';
-import '../providers/theme_provider.dart';
 import '../widgets/ad_banner_widget.dart';
 import 'recommendation_screen.dart';
 
 class DecisionScreen extends StatelessWidget {
   const DecisionScreen({super.key});
 
+  void _shareMenu(MenuItem menu) {
+    final text = '''
+🍽️ [오늘 뭐 먹지? 메뉴 결정 완료!]
+오늘의 메뉴는 바로 👉 '${menu.emoji} ${menu.name}'!
+• 분류: ${menu.subtitleFormatted}
+• 예상 가격: ${menu.estimatedPrice} (약 ${menu.cookingTime}분)
+
+지긋지긋한 메뉴 고민, 1초 만에 해결해보세요! 😋
+''';
+    SharePlus.instance.share(
+      ShareParams(
+        text: text,
+        subject: '오늘의 메뉴: ${menu.name}',
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final menuProvider = context.watch<MenuProvider>();
-    final themeProvider = context.watch<ThemeProvider>();
     final isDark = Theme.of(context).brightness == Brightness.dark;
     final recommendation = menuProvider.currentRecommendation;
     final menu = recommendation?.menuItem;
 
     return Scaffold(
       appBar: AppBar(
+        toolbarHeight: 64,
+        shape: Border(
+          bottom: BorderSide(
+            color: isDark ? const Color(0xFF2C323D) : const Color(0xFFDDD5C8),
+            width: 1,
+          ),
+        ),
         title: const Text('메뉴 결정 완료'),
         automaticallyImplyLeading: false,
         actions: [
-          IconButton(
-            icon: Icon(
-              isDark ? Icons.light_mode_rounded : Icons.dark_mode_rounded,
+          if (menu != null)
+            IconButton(
+              icon: const Icon(Icons.share_rounded),
+              tooltip: '친구에게 공유',
+              onPressed: () => _shareMenu(menu),
             ),
-            tooltip: isDark ? '라이트 모드로 전환' : '다크 모드로 전환',
-            onPressed: () {
-              themeProvider.toggleTheme();
-            },
-          ),
           const SizedBox(width: 8),
         ],
       ),
@@ -89,10 +110,10 @@ class DecisionScreen extends StatelessWidget {
                               : AppTheme.textSecondaryLight,
                         ),
                       ),
-                      const SizedBox(height: 28),
+                      const SizedBox(height: 24),
 
                       // Decision Card
-                      if (menu != null)
+                      if (menu != null) ...[
                         Container(
                           width: double.infinity,
                           padding: const EdgeInsets.symmetric(
@@ -103,12 +124,14 @@ class DecisionScreen extends StatelessWidget {
                             color: Theme.of(context).colorScheme.surface,
                             borderRadius: BorderRadius.circular(20),
                             border: Border.all(
-                              color: AppTheme.primary.withAlpha(isDark ? 80 : 40),
+                              color: AppTheme.primary
+                                  .withAlpha(isDark ? 80 : 40),
                               width: 1.5,
                             ),
                             boxShadow: [
                               BoxShadow(
-                                color: AppTheme.primary.withAlpha(isDark ? 30 : 20),
+                                color: AppTheme.primary
+                                    .withAlpha(isDark ? 30 : 20),
                                 blurRadius: 16,
                                 offset: const Offset(0, 6),
                               ),
@@ -169,6 +192,35 @@ class DecisionScreen extends StatelessWidget {
                             ],
                           ),
                         ),
+                        const SizedBox(height: 16),
+
+                        // Share Action Button (카카오톡 / SNS 친구 공유)
+                        SizedBox(
+                          width: double.infinity,
+                          height: 48,
+                          child: OutlinedButton.icon(
+                            onPressed: () => _shareMenu(menu),
+                            icon: const Icon(Icons.share_rounded, size: 18),
+                            label: const Text(
+                              '친구에게 메뉴 공유하기',
+                              style: TextStyle(
+                                fontSize: 14.5,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                            style: OutlinedButton.styleFrom(
+                              foregroundColor: AppTheme.primary,
+                              side: const BorderSide(
+                                color: AppTheme.primary,
+                                width: 1.5,
+                              ),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(14),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
                     ],
                   ),
                 ),
@@ -177,7 +229,8 @@ class DecisionScreen extends StatelessWidget {
 
             // Bottom Buttons Area with Banner Ad on Top
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
               decoration: BoxDecoration(
                 color: Theme.of(context).colorScheme.surface,
                 boxShadow: [
@@ -219,7 +272,8 @@ class DecisionScreen extends StatelessWidget {
                               }
                             },
                             style: OutlinedButton.styleFrom(
-                              padding: const EdgeInsets.symmetric(horizontal: 8),
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 8),
                             ),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -251,7 +305,8 @@ class DecisionScreen extends StatelessWidget {
                             style: ElevatedButton.styleFrom(
                               backgroundColor: AppTheme.primary,
                               foregroundColor: Colors.white,
-                              padding: const EdgeInsets.symmetric(horizontal: 8),
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 8),
                             ),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.center,

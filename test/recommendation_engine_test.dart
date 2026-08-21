@@ -149,6 +149,81 @@ void main() {
       expect(result.relaxationMessage, isNotEmpty);
     });
 
+    test('룰렛 후보 메뉴 추출 시 매운맛 프리셋 선택 시 모든 후보가 spicy == true인지 검증', () {
+      final spicyFilter = FilterCriteria.fromPreset('spicy');
+      final candidates = engine.getRouletteCandidates(
+        allMenus: mockMenus,
+        filter: spicyFilter,
+        recentExcludedIds: [],
+        count: 6,
+      );
+
+      expect(candidates, isNotEmpty);
+      for (final menu in candidates) {
+        expect(menu.spicy, isTrue);
+      }
+    });
+
+    test('국물/해장 프리셋 선택 시 추천 및 룰렛 후보가 모두 soup/국물 관련 음식인지 검증', () {
+      final hangoverFilter = FilterCriteria.fromPreset('hangover');
+      final result = engine.recommend(
+        allMenus: mockMenus,
+        filter: hangoverFilter,
+        recentExcludedIds: [],
+      );
+
+      expect(result, isNotNull);
+      expect(result!.menuItem.soup, isTrue);
+      expect(result.menuItem.name, '김치찌개');
+
+      final candidates = engine.getRouletteCandidates(
+        allMenus: mockMenus,
+        filter: hangoverFilter,
+        recentExcludedIds: [],
+        count: 6,
+      );
+      expect(candidates, isNotEmpty);
+      for (final m in candidates) {
+        expect(m.soup, isTrue);
+      }
+    });
+
+    test('다이어트/클린식단 프리셋 선택 시 추천 및 룰렛 후보가 모두 healthy/다이어트 음식인지 검증', () {
+      final dietFilter = FilterCriteria.fromPreset('diet');
+      final result = engine.recommend(
+        allMenus: mockMenus,
+        filter: dietFilter,
+        recentExcludedIds: [],
+      );
+
+      expect(result, isNotNull);
+      expect(result!.menuItem.healthy, isTrue);
+      expect(result.menuItem.name, '샐러드');
+
+      final candidates = engine.getRouletteCandidates(
+        allMenus: mockMenus,
+        filter: dietFilter,
+        recentExcludedIds: [],
+        count: 6,
+      );
+      expect(candidates, isNotEmpty);
+      for (final m in candidates) {
+        expect(m.healthy, isTrue);
+      }
+    });
+
+    test('배달 맛집 프리셋 선택 시 추천 메뉴가 deliveryAvailable == true 보장', () {
+      final deliveryFilter = FilterCriteria.fromPreset('delivery');
+      final result = engine.recommend(
+        allMenus: mockMenus,
+        filter: deliveryFilter,
+        recentExcludedIds: [],
+      );
+
+      expect(result, isNotNull);
+      expect(result!.menuItem.deliveryAvailable, isTrue);
+    });
+
     test('빈 메뉴 리스트 전달 시 null 반환', () {
       const filter = FilterCriteria();
       final result = engine.recommend(

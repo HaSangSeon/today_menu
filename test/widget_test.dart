@@ -63,11 +63,10 @@ void main() {
 
     await tester.pumpAndSettle();
 
-    // Verify Title, Badge and Button exist
+    // Verify Title, Subtitle and Buttons exist
     expect(find.text('오늘 뭐 먹지?'), findsWidgets);
-    expect(find.text('결정장애 해결소'), findsOneWidget);
-    expect(find.text('지긋지긋한 메뉴 결정장애 탈출!'), findsOneWidget);
     expect(find.text('1초 만에 딱 골라드려요 🍽️'), findsOneWidget);
-    expect(find.text('오늘 메뉴 골라줘!'), findsOneWidget);
+    expect(find.text('메뉴 룰렛'), findsOneWidget);
+    expect(find.text('메뉴 골라줘!'), findsOneWidget);
   });
 }

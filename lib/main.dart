@@ -9,6 +9,7 @@ import 'repositories/local_storage_repository.dart';
 import 'repositories/menu_repository.dart';
 import 'screens/home_screen.dart';
 import 'services/ad_service.dart';
+import 'services/notification_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,6 +35,13 @@ void main() async {
     ]);
   } catch (e) {
     debugPrint('Init error: $e');
+  }
+
+  // Initialize NotificationService in background
+  try {
+    await NotificationService().initialize();
+  } catch (e) {
+    debugPrint('NotificationService error: $e');
   }
 
   // Initialize AdMob in background (safe non-blocking)
